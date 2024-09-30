@@ -1,28 +1,33 @@
 <?php
 
 
-function enqueue_login_page_scripts_and_styles() {
+function enqueue_login_page_scripts_and_styles()
+{
 	// Enqueue jQuery.
-	wp_enqueue_script( 'jquery' );
+	wp_enqueue_script('jquery');
 
 	// Enqueue the latest version of Swiper Slider script.
-	wp_enqueue_script( 'swiper-slider', 'https://unpkg.com/swiper/swiper-bundle.min.js', array( 'jquery' ), '6.8.4', true );
+	wp_enqueue_script('swiper-slider', 'https://unpkg.com/swiper/swiper-bundle.min.js', array('jquery'), '6.8.4', true);
 
 	// Enqueue the latest version of Swiper Slider stylesheet.
-	wp_enqueue_style( 'swiper-slider-css', 'https://unpkg.com/swiper/swiper-bundle.min.css', array(), '6.8.4' );
+	wp_enqueue_style('swiper-slider-css', 'https://unpkg.com/swiper/swiper-bundle.min.css', array(), '6.8.4');
 }
-add_action( 'login_enqueue_scripts', 'enqueue_login_page_scripts_and_styles' );
+add_action('login_enqueue_scripts', 'enqueue_login_page_scripts_and_styles');
 
 // Initialize the slideshow.
-function initialize_login_slideshow_with_swiper() {
+function initialize_login_slideshow_with_swiper()
+{
 	// $background_images = get_option( 'lps_body_bg_slideshow', array() );
-	$background_images = array_filter( get_option( 'lps_body_bg_slideshow', array() ) );
-	$background_images = array_values( $background_images ); // Reset array keys.
+	$background_images = array_filter(get_option('lps_body_bg_slideshow', array()));
+	$background_images = array_values($background_images); // Reset array keys.
 
-	$animation_style = get_option( 'lps_slideshow_animation_style', 'fade' );
-	$delay_inseconds = get_option( 'lps_slideshow_time', 2 );
+	//$animation_style = get_option('lps_slideshow_animation_style', 'fade');
+	//$delay_inseconds = get_option('lps_slideshow_time', 2);
 
-	if ( ! empty( $background_images ) ) {
+	$animation_style =  'fade';
+	$delay_inseconds =  1;
+
+	if (! empty($background_images)) {
 		echo '<style>
 			.login-background-slideshow {
 				position: fixed;
@@ -50,7 +55,7 @@ function initialize_login_slideshow_with_swiper() {
 		$(\'body.login\').append(\'<div class="swiper-container login-background-slideshow"><div class="swiper-wrapper"></div></div>\');
 
 		// Populate the slideshow container with background images
-		var backgroundImages = ' . wp_json_encode( $background_images ) . ';
+		var backgroundImages = ' . wp_json_encode($background_images) . ';
 
 		console.log(\'Number of images:\', backgroundImages.length);
 
@@ -64,11 +69,11 @@ function initialize_login_slideshow_with_swiper() {
 		// Initialize the slideshow with selected animation style
 		var swiper = new Swiper(\'.login-background-slideshow\', {
 			autoplay: {
-				delay: \'' . esc_js( $delay_inseconds ) . '\'* 1000,
+				delay: \'' . esc_js($delay_inseconds) . '\'* 1000,
 				disableOnInteraction: false,
 			},
 			loop: true, // Set loop to false to prevent duplication of slides
-			effect: \'' . esc_js( $animation_style ) . '\',
+			effect: \'' . esc_js($animation_style) . '\',
 			grabCursor: true,
 			keyboard: {
 				enabled: true,
@@ -82,5 +87,4 @@ function initialize_login_slideshow_with_swiper() {
 </script>';
 	}
 }
-add_action( 'login_footer', 'initialize_login_slideshow_with_swiper' );
-
+add_action('login_footer', 'initialize_login_slideshow_with_swiper');
