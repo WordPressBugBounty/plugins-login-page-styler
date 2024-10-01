@@ -627,7 +627,7 @@ function lps_settings_page()
 
 						<h3 style="color: #FFBA00;" class="description">
 							<?php
-							echo esc_html__('Some Premium Feature will work on Live Preview. To apply on the frontend of Login, you have to ', 'login-page-styler') .
+							echo esc_html__(' Premium Feature will work on Live Preview but not on frontend. To apply on the frontend of Login, you have to ', 'login-page-styler') .
 								'<a href="https://pluginnestwp.website/custom-login-page-styler/" target="_blank">' . esc_html__('Buy Premium', 'login-page-styler') . '</a>' .
 								esc_html__('.', 'login-page-styler');
 							?>
