@@ -1,8 +1,8 @@
-# Custom Login Page Styler | WordPress Login Menu - Admin Login Logo | Captcha Google reCAPTCHA Login Security
+# All In One Custom Login Customizer And Login Security , Login Customization , Admin Login Security , Limit Login Attempts , Login Redirect , Login Protected Pages
 
 **Contributors:** Zia Imtiaz  
 **Donate:** [Support the Project](http://web-settler.com/login-page-styler/)  
-**Tags:** login, custom login, admin login page, login logo, security,
+**Tags:** custom login, wp-admin login,wp-login security, login customizer, redirect url, login url, login branding, login design, user experience, WordPress login, login reCAPTCHA, login captcha, login redirect, menu customization, admin login, anti-spam, login security, login form, background image, color customization, WordPress branding
 **Requires at least:** 4.0  
 **Tested up to:** 6.6.2
 **Stable tag:** 6.2.6
@@ -10,77 +10,98 @@
 **License:** GPLv2 or later  
 **License URI:** [GNU GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
 
-All in one Customize login page , Secure Wordpress login , admin login , Change logo, backgrounds, colors and Google reCAPTCHA for enhanced security.
+Take complete control of your WordPress login page design and security with **Custom Login Page Styler**. From branding to security hardening, transform your WordPress login page with customized logos, colors, backgrounds, and Google reCAPTCHA protection.
 
 ## Description
  
-Revamp your default WordPress login page with the powerful **Custom Login Page Styler** WordPress plugin. This tool allows you to effortlessly customize your login page, from changing the login logo to configuring security measures. Create a unique and professional login experience for your users without any coding skills.
+Your WordPress login page deserves more than just the default, generic look. **Custom Login Page Styler** lets you completely customize the appearance and enhance security effortlessly. Whether it's a personalized logo, custom background, or integrating Google reCAPTCHA for security, this plugin allows you to tailor every aspect of the login experience—without writing a single line of code.
 
 ### Customization Beyond Boundaries
 
 The **Custom Login Page Styler Plugin** empowers you to replace the generic WordPress logo on your login page with your own personalized logo. Say farewell to the standard WordPress branding and welcome your unique identity with ease.
-
 With this user-friendly plugin, you can effortlessly update your WordPress login page in just a few clicks. Make your login page an extension of your brand with ease.
 
-### Key Features
+## Why Choose Custom Login Page Styler?
 
-* **Customizable Login Page Design**: Tailor your login page to match your brand or website's aesthetics.
-* **Login Logo Uploader**: Seamlessly upload and display your distinctive login logo.
-* **Background Image Customization**: Set an engaging background image for the login page.
-* **Color Palette for Form and Background**: Choose colors that resonate with your brand for the login form and background.
-* **Enhanced Login Protection**: Fortify your login security with options like Google reCAPTCHA and login attempt limits.
-* **Flexible Login Redirection and Menu Customization**: Effortlessly control user redirection after login and tailor login/logout menus.
-* **Pre-built Themes for a Consistent User Interface**: Select from an array of pre-designed themes for a professional interface.
-* **Seamless Integration with the WordPress Admin Dashboard**: Effortlessly integrates with the WordPress admin dashboard.
+Unlike other plugins, **Custom Login Page Styler** offers intuitive controls that make customization quick and hassle-free. Its robust feature set lets you tailor every visual and functional element of your login page, from the smallest button to the largest background image.
 
-Custom Login Page Styler offers a diverse range of customizable features for enhancing your login and admin login pages:
+### Unique Customizations Available:
 
-1. **Plugin Control**:
-   - Easily enable or disable the plugin as needed.
+- **Advanced Logo Control**: Adjust your login logo's width, height, and link URL.
+- **Enhanced Background Control**: Set a custom image for the background or use solid colors.
+- **Full Form Control**: Customize everything from textbox styling to button hover effects.
+- **Navigation Links**: Personalize navigation links with custom color schemes and hover states.
+- **Form Animations and Effects**: Add engaging animations and shadow effects to your login forms for a sleek, modern interface.
 
-2. **Custom Logo**:
-   - Add your unique logo to the login or admin login page with custom dimensions.
-   - Customize the logo title with your own branding.
-   - Option to hide the login logo when necessary.
 
-3. **Login Page Elements Control**:
-   - Hide login error messages.
-   - Remove the "Lost Password" link.
-   - Eliminate the "Back to Blog" link.
 
-4. **Logo Customization**:
-   - Define custom login logo width and height.
-   - Specify a custom link for the login logo.
 
-5. **Login Form Customization**:
-   - Position the login form according to your preferences.
-   - Adjust font size, color, and style of login form labels.
+Complete Feature Set
 
-6. **Background Customization**:
-   - Upload a custom login body background image.
-   - Tailor the login form's background color.
+General Controls:
+- Enable Plugin Button
+- Hide Login Logo
+- Hide Navigation Links
+- Hide Lost Password Link
+- Auto Remember Me
+- Login Session Expiration
 
-7. **Form Styling**:
-   - Modify the border width of the login form.
-   - Personalize the login form's border color and style.
+Logo Customization:
+- Custom Login Logo Image
+- Custom Login Logo Width/Height
+- Custom Logo Link
+- Custom Logo Title
+- Text Logo with Color Customization
+- Text  Logo Color Hover
 
-8. **Textbox Customization**:
-   - Define the textbox border size, color, style, and radius for a distinctive look.
+Navigation & Links:
+- Hide Back to Blog Link
+- Hide Language Switcher on Login
+- Navigation Links Color
+- Navigation Links Hover Color
+- Navigation Link Size
+- Google Fonts for Navigation Links
 
-9. **Button Styling**:
-   - Change the login form button's color, border size, and border color.
-   - Adjust the button's border radius and border style.
+Security Features:
+- Hide Login Error Messages
+- Google reCAPTCHA Integration
+- Custom Error/Notice Message Text and Background Colors
+- Error, Notice Message Background Opacity
 
-10. **Button Hover Effects**:
-    - Customize the button's hover effect with border size, border color, and border style.
+Background & Layout:
+- Background Color & Image
+- Body Background Image with Repeat Option
+- Form Background Image
+- Login Background Slider with Animation Styles
+- Slideshow Time for Slider
 
-11. **Navigation Links**:
-    - Add your personal touch to navigation links with custom colors, hover colors, and size.
+Form Styling:
+- Custom Form Position
+- Form Width & Color
+- Form Opacity
+- Form Animation
+- Form Border (Color, Style, Radius)
+- Form Box Shadow (Horizontal/Vertical Offset, Blur Radius, Spread Radius, Color, Opacity)
 
-12. **Upcoming Features**:
-    - Stay tuned for more exciting features and enhancements in future updates.
+Input Field Customization:
+- Input Field Color & Text Color
+- Input Field Border (Color, Style, Radius)
+- Input Field Opacity
+- Label Color & Size
+- Remember Me Label Size
+- Google Fonts for Labels & Input Field Text
 
-Customize these elements to craft a login experience that perfectly aligns with your brand and website. We are continuously expanding our feature set to offer even more customization options for your login page.
+Button Customization:
+- Login Button Color, Text Color, Border Color
+- Login Button Color Hover, Text Color Hover, Border Color Hover
+- Login Button Border Radius
+- Login Button Size
+- Google Fonts for Buttons
+
+Copyright & Footer Customization:
+- Add Copyright Text
+- Custom Copyright Text Color
+- Google Fonts for Copyright Text
 
 ### Harness the Power of Google reCAPTCHA
 
