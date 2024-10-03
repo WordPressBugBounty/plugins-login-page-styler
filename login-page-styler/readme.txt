@@ -1,8 +1,8 @@
-# All In One Custom Login Customizer And Login Security , Login Customization , Admin Login Security , Limit Login Attempts , Login Redirect , Login Protected Pages
+# All In One LPS Custom Login WP Login Security , Login Customization ,Wp Admin Login Security , Limit Login Attempts , Login Redirect , Login Protected Pages
 
 **Contributors:** Zia Imtiaz  
 **Donate:** [Support the Project](http://web-settler.com/login-page-styler/)  
-**Tags:** custom login, wp-admin login,wp-login security, login customizer, redirect url, login url, login branding, login design, user experience, WordPress login, login reCAPTCHA, login captcha, login redirect, menu customization, admin login, anti-spam, login security, login form, background image, color customization, WordPress branding
+**Tags:** customize login, wp-admin login,wp-login security, login redirect, login url, login branding, login design, user experience, WordPress login, login reCAPTCHA, login captcha, login redirect, menu customization, admin login, anti-spam, login security, login form, background image, color customization, WordPress branding
 **Requires at least:** 4.0  
 **Tested up to:** 6.6.2
 **Stable tag:** 6.2.6
