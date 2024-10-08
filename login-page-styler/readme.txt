@@ -1,8 +1,8 @@
-# All In One LPS Custom Login WP Login Security , Login Customization ,Wp Admin Login Security , Limit Login Attempts , Login Redirect , Login Protected Pages
+# All In One LPS Custom Login Change Login url Change Admin Login url  Login Customization  Google Recaptcha Limit Login Attempts Login Redirection Login Protected Pages
 
 **Contributors:** Zia Imtiaz  
 **Donate:** [Support the Project](http://web-settler.com/login-page-styler/)  
-**Tags:** customize login, wp-admin login,wp-login security, login redirect, login url, login branding, login design, user experience, WordPress login, login reCAPTCHA, login captcha, login redirect, menu customization, admin login, anti-spam, login security, login form, background image, color customization, WordPress branding
+**Tags:** customize login, login url, admin url, login security, login redirection, login url, login branding, login design, user experience, WordPress login, login reCAPTCHA, login captcha, login redirect, menu customization, admin login, anti-spam, login security, login form, background image, color customization, WordPress branding
 **Requires at least:** 4.0  
 **Tested up to:** 6.6.2
 **Stable tag:** 6.2.6
@@ -15,6 +15,9 @@ Take complete control of your WordPress login page design and security with **Cu
 ## Description
  
 Your WordPress login page deserves more than just the default, generic look. **Custom Login Page Styler** lets you completely customize the appearance and enhance security effortlessly. Whether it's a personalized logo, custom background, or integrating Google reCAPTCHA for security, this plugin allows you to tailor every aspect of the login experience—without writing a single line of code.
+
+Custom Login URL & Redirection: This plugin allows you to replace the default WordPress login URL with a custom one and set up redirection after login.
+Enhanced Security: Easily hide the default login page and improve security by redirecting unauthorized access attempts.
 
 ### Customization Beyond Boundaries
 

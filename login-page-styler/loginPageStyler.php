@@ -979,6 +979,7 @@ require 'loginPageStylerLim.php';
 
 require 'loginPageStylerBgSlideShow.php';
 
+require 'loginPageStylerAdminUrl.php';
 
 if (get_option('lps_login_on_off') == 1) {
 	require 'lpsReCaptcha.php';

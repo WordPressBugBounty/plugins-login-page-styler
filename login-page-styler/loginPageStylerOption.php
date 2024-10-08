@@ -149,6 +149,8 @@ function lps_register_settings()
 
 	register_setting('lps-settings-group', 'lps_redirect_users', 'sanitize_key');
 	register_setting('lps-settings-group', 'lps_redirectafter_users', 'sanitize_key');
+	register_setting('lps-settings-group', 'lps_new_login_url', 'sanitize_text_field');
+	register_setting('lps-settings-group', 'lps_new_redirection_url', 'sanitize_text_field');
 }
 
 /**
@@ -251,7 +253,9 @@ function lps_reset_settings()
 		'lps_redirectafter_users',
 		'lps_notice_textcolor',
 		'lps_notice_bgcolor',
-		'lps_notice_bgcolor_opacity'
+		'lps_notice_bgcolor_opacity',
+		'lps_new_login_url',
+		'lps_new_redirection_url'
 	);
 
 	// Reset each option to its default value
@@ -368,7 +372,7 @@ function lps_settings_page()
 		<label class="tabla" for="tab4">Login/Logout Menu Item</label>
 
 		<input class="tabin" id="tab5" type="radio" name="tabs">
-		<label class="tabla" for="tab5">Login/Logout Redirect</label>
+		<label class="tabla" for="tab5">Login URL/ Login Redirect</label>
 
 		<input class="tabin" id="tab6" type="radio" name="tabs">
 		<label class="tabla" for="tab6">Login Protected</label>
@@ -1823,9 +1827,45 @@ function lps_settings_page()
 			<div id="content5">
 				<div class="wrap">
 
-					<h1><?php esc_html_e('Login Redirect', 'login-page-styler'); ?></h1>
+					<h1><?php esc_html_e('New Login URL / Admin Login URL', 'login-page-styler'); ?></h1>
 					<table class="form-table">
+						
+					<tr valign="top">
+    <th scope="row"><?php esc_html_e('New Login URL', 'login-page-styler'); ?></th>
+    <td>
+        <label for="lps_new_login_url">
+            <?php
+            // Get the option and ensure a default value if it doesn't exist yet
+            $lps_new_login_url = get_option('lps_new_login_url', ''); // Default to empty string if option is not set
+            ?>
+           <p style="background-color: #FFBA00; width:auto; float:left; margin-top:10px;" ><?php echo esc_url(get_site_url() . "/"); ?></p> <input type="text" id="lps_new_login_url" placeholder="" name="lps_new_login_url" value="<?php echo esc_attr($lps_new_login_url); ?>" />
+            <p class="description"><?php esc_html_e('Add your slug for example: my-login or mylogin', 'login-page-styler'); ?></p>
+        </label>
+    </td>
+</tr>
 
+<tr valign="top">
+    <th scope="row"><?php esc_html_e('Redirect to , When  old wp-login or wp-admin is visited', 'login-page-styler'); ?></th>
+    <td>
+        <label for="lps_new_redirection_url">
+            <?php
+            // Get the option and ensure a default value if it doesn't exist yet
+            $lps_new_redirection_url = get_option('lps_new_redirection_url', ''); // Default to empty string if option is not set
+            ?>
+           <p style="background-color: #FFBA00; width:auto; float:left; margin-top:10px;" > <?php echo esc_url(get_site_url() . "/"); ?></p><input type="text" id="lps_new_redirection_url" placeholder="" name="lps_new_redirection_url" value="<?php echo esc_attr($lps_new_redirection_url); ?>" />
+            <p class="description"><?php esc_html_e('Leave empty or use 404 to land on 404, You can also use page slugs if you want people who visit wp-login.php or wp-admin to a specific page ', 'login-page-styler'); ?></p>
+        </label>
+    </td>
+</tr>
+
+										
+					</table>
+					
+					<div id="headings-data">
+						<div id="hed3">
+							<h3><?php esc_html_e(' Login Redirect / Logout Redirect  ', 'login-page-styler'); ?></h3>
+						</div>
+						<table class="form-table">
 						<tr valign="top">
 							<th scope="row"><?php esc_html_e('Redirect user after login', 'login-page-styler'); ?></th>
 							<td>
@@ -1884,7 +1924,9 @@ function lps_settings_page()
 								</label>
 							</td>
 						</tr>
-					</table>
+						</table>
+					</div>
+					
 					<p class="submit">
 						<input type="submit" id="lpsbutton-primary" class="button-primary" value="<?php esc_html_e('Save Changes', 'login-page-styler'); ?>" />
 					</p>
