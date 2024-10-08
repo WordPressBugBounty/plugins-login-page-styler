@@ -1,8 +1,8 @@
-# All In One LPS Custom Login Change Login url Change Admin Login url  Login Customization  Google Recaptcha Limit Login Attempts Login Redirection Login Protected Pages
+# All In One Custom Login Page Styler - Change Admin Login URL - Login Customization - Google Recaptcha - Limit Login Attempts - Custom  Login Redirection -
 
 **Contributors:** Zia Imtiaz  
 **Donate:** [Support the Project](http://web-settler.com/login-page-styler/)  
-**Tags:** customize login, login url, admin url, login security, login redirection, login url, login branding, login design, user experience, WordPress login, login reCAPTCHA, login captcha, login redirect, menu customization, admin login, anti-spam, login security, login form, background image, color customization, WordPress branding
+**Tags:** custom , login , change url , admin login, redirect, redirection, login url, login branding, login design, user experience, WordPress login, login reCAPTCHA, login captcha, login redirect, menu customization, admin login, anti-spam, login security, login form, background image, color customization, WordPress branding
 **Requires at least:** 4.0  
 **Tested up to:** 6.6.2
 **Stable tag:** 6.2.6
@@ -10,11 +10,11 @@
 **License:** GPLv2 or later  
 **License URI:** [GNU GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
 
-Take complete control of your WordPress login page design and security with **Custom Login Page Styler**. From branding to security hardening, transform your WordPress login page with customized logos, colors, backgrounds, and Google reCAPTCHA protection.
+Change Admin Login URL, Customize Login Page , Google reCAPTCHA, Limit Login Attempts, Login Redirection, Login Protected Pages, Limit Login Attempts , Change Logo
 
 ## Description
- 
-Your WordPress login page deserves more than just the default, generic look. **Custom Login Page Styler** lets you completely customize the appearance and enhance security effortlessly. Whether it's a personalized logo, custom background, or integrating Google reCAPTCHA for security, this plugin allows you to tailor every aspect of the login experience—without writing a single line of code.
+Take complete control of your WordPress login page design and security with **Custom Login Page Styler**. From branding to security hardening, transform your WordPress login page.
+Your WordPress login page deserves more than just the default, generic look. **Custom Login Page Styler** lets you completely customize the appearance and enhance security effortlessly. Whether it's a personalized logo, custom background, change login url or integrating Google reCAPTCHA or Limit Login Attempts for security, this plugin allows you to tailor every aspect of the login experience—without writing a single line of code.
 
 Custom Login URL & Redirection: This plugin allows you to replace the default WordPress login URL with a custom one and set up redirection after login.
 Enhanced Security: Easily hide the default login page and improve security by redirecting unauthorized access attempts.
@@ -39,75 +39,69 @@ Unlike other plugins, **Custom Login Page Styler** offers intuitive controls tha
 
 
 
-Complete Feature Set
-
 General Controls:
-- Enable Plugin Button
-- Hide Login Logo
-- Hide Navigation Links
-- Hide Lost Password Link
-- Auto Remember Me
-- Login Session Expiration
+- Enable Plugin Button: Activates the plugin’s functionality.
+- Hide Login Logo: Removes the default WordPress logo from the login page.
+- Hide Navigation Links: Hides links like "Back to Blog" or navigation on the login page.
+- Hide Lost Password Link: Removes the “Lost your password?” link from the login form.
+- Auto Remember Me: Automatically checks the "Remember Me" box on the login form.
+- Login Session Expiration: Controls the duration of the user's login session.
 
 Logo Customization:
-- Custom Login Logo Image
-- Custom Login Logo Width/Height
-- Custom Logo Link
-- Custom Logo Title
-- Text Logo with Color Customization
-- Text  Logo Color Hover
+- Custom Login Logo Image: Allows you to upload a custom logo for the login page.
+- Custom Login Logo Width/Height: Adjusts the width and height of the custom logo.
+- Custom Logo Link: Sets a custom URL for the logo link.
+- Custom Logo Title: Defines a custom title for the logo on hover.
+- Text Logo with Color Customization: Enables text-based logos with customizable colors.
+- Text Logo Color Hover: Changes the color of the text logo when hovered over.
 
 Navigation & Links:
-- Hide Back to Blog Link
-- Hide Language Switcher on Login
-- Navigation Links Color
-- Navigation Links Hover Color
-- Navigation Link Size
-- Google Fonts for Navigation Links
+- Hide Back to Blog Link: Removes the "Back to Blog" link from the login page.
+- Hide Language Switcher on Login: Disables the language switcher option on the login page.
+- Navigation Links Color: Customizes the color of navigation links on the login page.
+- Navigation Links Hover Color: Changes the color of navigation links when hovered.
+- Navigation Link Size: Adjusts the font size of navigation links.
+- Google Fonts for Navigation Links: Allows you to apply Google Fonts to navigation links.
 
 Security Features:
-- Hide Login Error Messages
-- Google reCAPTCHA Integration
-- Custom Error/Notice Message Text and Background Colors
-- Error, Notice Message Background Opacity
-
-Background & Layout:
-- Background Color & Image
-- Body Background Image with Repeat Option
-- Form Background Image
-- Login Background Slider with Animation Styles
-- Slideshow Time for Slider
+- Hide Login Error Messages: Hides error messages that appear after failed login attempts for enhanced security.
+- Google reCAPTCHA Integration: Adds Google reCAPTCHA to the login page to prevent bots and spam.
+- Custom Error/Notice Message Text and Background Colors: Customizes the text and background colors for error or notice messages on the login page.
+- Error, Notice Message Background Opacity: Adjusts the transparency of error/notice message backgrounds.
+- Background & Layout:
+- Background Color & Image: Allows customization of the login page background with solid colors or images.
+- Body Background Image with Repeat Option: Adds a background image to the entire login page body with the option to repeat the image.
+- Form Background Image: Allows a background image specifically for the login form area.
+- Login Background Slider with Animation Styles: Adds a slider for rotating background images with various animation styles.
+- Slideshow Time for Slider: Sets the duration for each image in the background slider.
 
 Form Styling:
-- Custom Form Position
-- Form Width & Color
-- Form Opacity
-- Form Animation
-- Form Border (Color, Style, Radius)
-- Form Box Shadow (Horizontal/Vertical Offset, Blur Radius, Spread Radius, Color, Opacity)
-
-Input Field Customization:
-- Input Field Color & Text Color
-- Input Field Border (Color, Style, Radius)
-- Input Field Opacity
-- Label Color & Size
-- Remember Me Label Size
-- Google Fonts for Labels & Input Field Text
+- Custom Form Position: Allows customization of the login form’s position on the page.
+- Form Width & Color: Customizes the width and color of the login form.
+- Form Opacity: Adjusts the transparency of the form.
+- Form Animation: Adds animations to the form for visual effects.
+- Form Border (Color, Style, Radius): Customizes the form’s border color, style, and corner radius.
+- Form Box Shadow: Adds a shadow effect to the form with customizable settings like offset, blur, and color.
+- Input Field Customization:
+- Input Field Color & Text Color: Changes the color of the input fields and the text within them.
+- Input Field Border (Color, Style, Radius): Customizes the border of input fields with options for color, style, and radius.
+- Input Field Opacity: Adjusts the transparency of the input fields.
+- Label Color & Size: Customizes the color and size of input labels (e.g., "Username" or "Password").
+- Remember Me Label Size: Adjusts the size of the "Remember Me" label text.
+- Google Fonts for Labels & Input Field Text: Allows the use of Google Fonts for the text in labels and input fields.
 
 Button Customization:
-- Login Button Color, Text Color, Border Color
-- Login Button Color Hover, Text Color Hover, Border Color Hover
-- Login Button Border Radius
-- Login Button Size
-- Google Fonts for Buttons
+- Login Button Color, Text Color, Border Color: Customizes the color of the login button, its text, and its border.
+- Login Button Color Hover, Text Color Hover, Border Color Hover: Changes the button's colors when hovered over.
+- Login Button Border Radius: Adjusts the roundness of the login button’s corners.
+- Login Button Size: Allows you to set the size of the login button.
+- Google Fonts for Buttons: Applies Google Fonts to the text on buttons.
+- Copyright & Footer Customization:
+- Add Copyright Text: Allows you to add custom copyright text to the login page footer.
+- Custom Copyright Text Color: Changes the color of the copyright text.
+- Google Fonts for Copyright Text: Enables the use of Google Fonts for the copyright text.
 
-Copyright & Footer Customization:
-- Add Copyright Text
-- Custom Copyright Text Color
-- Google Fonts for Copyright Text
-
-### Harness the Power of Google reCAPTCHA
-
+### Harness the Power of Google reCAPTCHA :
 This plugin leverages Google reCAPTCHA, a formidable security tool, to fend off automated spam submissions and bolster login page security. By integrating Google reCAPTCHA on the login page, you ensure that only genuine individuals can access your site, enhancing overall login security.
 
 For comprehensive information on Google reCAPTCHA, visit [Google ReCAPTCHA](https://www.google.com/recaptcha/).
