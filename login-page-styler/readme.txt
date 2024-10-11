@@ -1,8 +1,8 @@
-# All In One Custom Login Page Styler - Change Admin Login URL - Login Customization - Google Recaptcha - Limit Login Attempts - Custom  Login Redirection -
+# All In One Custom Login Page Styler - Login Customizer - Change Login URL - Hide Login - Google reCaptcha - 
 
 **Contributors:** Zia Imtiaz  
-**Donate:** [Support the Project](http://web-settler.com/login-page-styler/)  
-**Tags:** custom , login , change url , admin login, redirect, redirection, login url, login branding, login design, user experience, WordPress login, login reCAPTCHA, login captcha, login redirect, menu customization, admin login, anti-spam, login security, login form, background image, color customization, WordPress branding
+**Donate:** [Support the Project](https://pluginnestwp.website/)  
+**Tags:** custom login url, hide login , wp-admin, wp-login.php, change logo, redirect, login url, login branding, login design, user experience, WordPress login, login reCAPTCHA, login captcha, login redirect, menu customization, admin login, anti-spam, login security, login form, background image, color customization, WordPress branding
 **Requires at least:** 4.0  
 **Tested up to:** 6.6.2
 **Stable tag:** 6.2.6
