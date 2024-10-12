@@ -1,8 +1,8 @@
-# All In One Custom Login Page Styler - Login Customizer - Change Login URL - Hide Login - Google reCaptcha - 
+# All In One Custom Login Page Styler - Design Login  - Change Login URL - Hide Admin Login - Google reCaptcha - Login Redirection - Login Menu - Change Login Logo  
 
 **Contributors:** Zia Imtiaz  
 **Donate:** [Support the Project](https://pluginnestwp.website/)  
-**Tags:** custom login url, hide login , wp-admin, wp-login.php, change logo, redirect, login url, login branding, login design, user experience, WordPress login, login reCAPTCHA, login captcha, login redirect, menu customization, admin login, anti-spam, login security, login form, background image, color customization, WordPress branding
+**Tags:** custom login url, hide login , wp-admin, wp-login.php, login logo, redirect, login url, login branding, login design, user experience, WordPress login, login reCAPTCHA, login captcha, login redirect, menu customization, admin login, anti-spam, login security, login form, background image, color customization, WordPress branding
 **Requires at least:** 4.0  
 **Tested up to:** 6.6.2
 **Stable tag:** 6.2.6
@@ -10,7 +10,7 @@
 **License:** GPLv2 or later  
 **License URI:** [GNU GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
 
-Change Admin Login URL, Customize Login Page , Google reCAPTCHA, Limit Login Attempts, Login Redirection, Login Protected Pages, Limit Login Attempts , Change Logo
+Change Admin Login URL, Customize Login Page , Google reCAPTCHA, Limit Login Attempts, Login Redirection, Login Protected Pages, Limit Login Attempts , Change Login Logo
 
 ## Description
 Take complete control of your WordPress login page design and security with **Custom Login Page Styler**. From branding to security hardening, transform your WordPress login page.
@@ -48,10 +48,10 @@ General Controls:
 - Login Session Expiration: Controls the duration of the user's login session.
 
 Logo Customization:
-- Custom Login Logo Image: Allows you to upload a custom logo for the login page.
-- Custom Login Logo Width/Height: Adjusts the width and height of the custom logo.
-- Custom Logo Link: Sets a custom URL for the logo link.
-- Custom Logo Title: Defines a custom title for the logo on hover.
+- Customize Login Logo Image: Allows you to upload a custom logo for the login page.
+- Customize Login Logo Width/Height: Adjusts the width and height of the custom logo.
+- Customize Logo Link: Sets a custom URL for the logo link.
+- Customize Logo Title: Defines a custom title for the logo on hover.
 - Text Logo with Color Customization: Enables text-based logos with customizable colors.
 - Text Logo Color Hover: Changes the color of the text logo when hovered over.
 
@@ -76,27 +76,27 @@ Security Features:
 - Slideshow Time for Slider: Sets the duration for each image in the background slider.
 
 Form Styling:
-- Custom Form Position: Allows customization of the login form’s position on the page.
-- Form Width & Color: Customizes the width and color of the login form.
-- Form Opacity: Adjusts the transparency of the form.
-- Form Animation: Adds animations to the form for visual effects.
-- Form Border (Color, Style, Radius): Customizes the form’s border color, style, and corner radius.
-- Form Box Shadow: Adds a shadow effect to the form with customizable settings like offset, blur, and color.
-- Input Field Customization:
-- Input Field Color & Text Color: Changes the color of the input fields and the text within them.
-- Input Field Border (Color, Style, Radius): Customizes the border of input fields with options for color, style, and radius.
-- Input Field Opacity: Adjusts the transparency of the input fields.
+- Custom Login Form Position: Allows customization of the login form’s position on the page.
+- Custom Login Form Width & Color: Customizes the width and color of the login form.
+- Custom Login Form Opacity: Adjusts the transparency of the form.
+- Custom Login Form Animation: Adds animations to the form for visual effects.
+- Custom Login Form Border (Color, Style, Radius): Customizes the form’s border color, style, and corner radius.
+- Custom Login Form Box Shadow: Adds a shadow effect to the form with customizable settings like offset, blur, and color.
+- Custom Login Input Field Customization:
+- Custom Login Input Field Color & Text Color: Changes the color of the input fields and the text within them.
+- Custom Login Input Field Border (Color, Style, Radius): Customizes the border of input fields with options for color, style, and radius.
+- Custom Login Input Field Opacity: Adjusts the transparency of the input fields.
 - Label Color & Size: Customizes the color and size of input labels (e.g., "Username" or "Password").
 - Remember Me Label Size: Adjusts the size of the "Remember Me" label text.
 - Google Fonts for Labels & Input Field Text: Allows the use of Google Fonts for the text in labels and input fields.
 
 Button Customization:
-- Login Button Color, Text Color, Border Color: Customizes the color of the login button, its text, and its border.
-- Login Button Color Hover, Text Color Hover, Border Color Hover: Changes the button's colors when hovered over.
-- Login Button Border Radius: Adjusts the roundness of the login button’s corners.
-- Login Button Size: Allows you to set the size of the login button.
-- Google Fonts for Buttons: Applies Google Fonts to the text on buttons.
-- Copyright & Footer Customization:
+- Customize Login Button Color, Text Color, Border Color: Customizes the color of the login button, its text, and its border.
+- Customize Customize Login Button Color Hover, Text Color Hover, Border Color Hover: Changes the button's colors when hovered over.
+- Customize Login Button Border Radius: Adjusts the roundness of the login button’s corners.
+- Customize Login Button Size: Allows you to set the size of the login button.
+- Custom Google Fonts for Buttons: Applies Google Fonts to the text on buttons.
+- Copyright Text & Footer Customization:
 - Add Copyright Text: Allows you to add custom copyright text to the login page footer.
 - Custom Copyright Text Color: Changes the color of the copyright text.
 - Google Fonts for Copyright Text: Enables the use of Google Fonts for the copyright text.
