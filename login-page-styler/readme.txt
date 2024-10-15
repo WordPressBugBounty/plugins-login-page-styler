@@ -1,8 +1,8 @@
-# All In One Custom Login Page Styler - Customize Login Design - Custom Login URL - Custom Admin Login - Google reCaptcha - Custom Login Redirection - Custom Login Menu - Customize Login Logo  
+# All In One Custom Login Page Styler - Customize Login Design - Custom Login URL - Rename Login - Custom Admin Login - Google reCaptcha - Custom Login Redirection - Custom Login Menu - Customize Login Logo  
 
 **Contributors:** Zia Imtiaz  
 **Donate:** [Support the Project](https://pluginnestwp.website/)  
-**Tags:** custom login, login page , url login , admin dashboard , redirect, login logo, login security 
+**Tags:** custom login, login page , url login , rename login , redirect, login logo, login security 
 **Requires at least:** 4.0  
 **Tested up to:** 6.6.2
 **Stable tag:** 6.2.6
