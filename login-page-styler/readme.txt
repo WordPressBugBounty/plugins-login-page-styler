@@ -1,8 +1,8 @@
-# All In One Custom Login Page Styler - Customize Login Design - Change WP Admin Login URL - Rename Login - Custom Admin Login Customizer - Google reCaptcha - Login Redirection - Login Menu - Login Logo - Login Security  - Restricted access to site 
+# All In One Custom Login Page Styler - Customize Login Design - Hide WP Admin Login URL - Rename Login - Google reCaptcha - Login Redirection - Login Menu - Login Logo - Login Security  - Restricted access to site - Private Site - Custom Admin Login Customizer
 
 **Contributors:** Zia Imtiaz  
 **Donate:** [Support the Project](https://pluginnestwp.website/)  
-**Tags:** custom login, login page , hide admin , rename login , redirect, login logo, login security , restricted access, google recaptcha, login customizer, wp login, wordpress logo
+**Tags:** custom login, login page , hide admin , rename login , redirect, login logo, login security , restricted access, google recaptcha, login customizer, wp login, private site
 **Requires at least:** 4.0  
 **Tested up to:** 6.6.2
 **Stable tag:** 6.2.6
