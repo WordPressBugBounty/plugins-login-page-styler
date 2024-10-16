@@ -2,7 +2,7 @@
 
 **Contributors:** Zia Imtiaz  
 **Donate:** [Support the Project](https://pluginnestwp.website/)  
-**Tags:** custom login, login page , admin login , rename login , redirect, login logo, login security 
+**Tags:** custom login, login page , hide admin , rename login , redirect, login logo, login security 
 **Requires at least:** 4.0  
 **Tested up to:** 6.6.2
 **Stable tag:** 6.2.6
