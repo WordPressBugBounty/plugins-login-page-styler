@@ -1,14 +1,14 @@
-# All In One Custom Login Solutions - Custom Login Customizer - Hide Login URL - Rename Login - Google reCaptcha - Login Redirection - Login Menu - Login Logo - Login Security  - Temporary Login access - Private Site - Customize Login design
+# All In One Custom Login Page Styler - Login Customizer - Change Login URL - Hide Login - Google reCaptcha - Login Design - Limit Login - Temporary Login Access  
 
-**Contributors:** Zia Imtiaz  
-**Donate:** [Support the Project](https://pluginnestwp.website/)  
-**Tags:** custom login, login page , hide login , rename login , redirect, login logo, login security , temporary access, google recaptcha, login customizer, wp login, private site
-**Requires at least:** 4.0  
-**Tested up to:** 6.6.2
-**Stable tag:** 6.2.6
-**Requires PHP:** 5.3  
-**License:** GPLv2 or later  
-**License URI:** [GNU GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
+Contributors: Zia Imtiaz  
+Donate: [Support the Project](https://pluginnestwp.website/)  
+Tags: custom login url, hide login , wp-admin, wp-login.php, temporary login, temporary access, login url, login branding, login design, user experience, WordPress login, login reCAPTCHA, login captcha, login redirect, menu customization, admin login, anti-spam, login security, login form, background image, color customization, WordPress branding
+Requires at least: 4.0  
+Tested up to: 6.6.2
+Stable tag: 6.2.6
+Requires PHP: 5.3  
+License: GPLv2 or later  
+License URI: [GNU GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
 
 Change Admin Login URL, Customize Login Page , Google reCAPTCHA, Limit Login Attempts, Login Redirection, Login Protected Pages, Limit Login Attempts , Change Login Logo
 
@@ -80,7 +80,7 @@ Unlike other plugins, **Custom Login Page Styler** is designed for simplicity an
 - **Google Fonts for Navigation Links:** Allows you to apply Google Fonts to navigation links.
 
 ## Security Features
-- **Hide Login Error Messages:** Hides error messages that appear after failed login attempts for enhanced security.
+- **Hide Admin Login Error Messages:** Hides error messages that appear after failed login attempts for enhanced security.
 - **Google reCAPTCHA Integration:** Adds Google reCAPTCHA to the login page to prevent bots and spam.
 - **Custom Error/Notice Message Text and Background Colors:** Customizes the text and background colors for error or notice messages on the login page.
 - **Error, Notice Message Background Opacity:** Adjusts the transparency of error/notice message backgrounds.
