@@ -128,7 +128,7 @@ function lps_isLockedDown() {
 
 // Function to list locked down users
 function lps_listLockedDown() {
-	 global $wpdb;
+	global $wpdb;
 
 	$table_name = $wpdb->prefix . 'lps_lockdowns';
 
@@ -149,7 +149,7 @@ if ( get_option( 'lps_enable_lim' ) == 1 ) {
 
 // Custom authentication function.
 function lps_wp_authenticate_username_password( $user, $username, $password ) {
-	 global $wpdb;
+	global $wpdb;
 
 	// Your custom authentication logic
 	// ...
@@ -253,7 +253,6 @@ function lps_wp_authenticate( $user, $username, $password ) {
 	}
 
 	return $user; // Return the WP_User object or an error using WP_Error.
-
 }
 // You can use apply_filters('wp_authenticate_user', $userdata, $password) to apply the 'wp_authenticate_user' filter and modify the $userdata before further processing. Similarly, apply_filters('authenticate', null, $username, $password) applies the 'authenticate' filter, allowing you to modify the authentication process or the user before returning it.
 // Customize the logic inside these filters according to your specific requirements.

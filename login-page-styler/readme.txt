@@ -1,20 +1,18 @@
-# All In One Custom Login Page Styler - Login Customizer - Change Login URL - Hide Login - Google reCaptcha - Login Design - Limit Login - Temporary Login Access  
+# All In One Custom Login Page Styler - Login Customizer - Change Login URL - Temporary Login Admin Access - Login Logs - Failed Login Attempts Logs - Limit Login - Change Login Logo and Design 
 
 Contributors: Zia Imtiaz  
 Donate: [Support the Project](https://pluginnestwp.website/)  
-Tags: custom login url, hide login , wp-admin, wp-login.php, temporary login, temporary access, login url, login branding, login design, user experience, WordPress login, login reCAPTCHA, login captcha, login redirect, menu customization, admin login, anti-spam, login security, login form, background image, color customization, WordPress branding
+Tags: custom login, login customizer, login url,  temporary login , login log, failed login, admin access , user login, custom login, temporary login, temporary access, rename login, logo login , login branding, login design, WordPress login, login reCAPTCHA, login captcha, login redirect, login menu, admin login, anti-spam, login security, login form, background image, color customization, WordPress branding
 Requires at least: 4.0  
 Tested up to: 6.6.2
-Stable tag: 6.2.6
+Stable tag: 7.1.1
 Requires PHP: 5.3  
 License: GPLv2 or later  
 License URI: [GNU GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
 
-Change Admin Login URL, Customize Login Page , Google reCAPTCHA, Limit Login Attempts, Login Redirection, Login Protected Pages, Limit Login Attempts , Change Login Logo
+Easy to use All in One Custom Login Solutions , Customize Login design , Extra security and Control , User Login logs and Failed Attempts Logs, Block Ip and region to access Login   
 
 ## Description
-
-Take complete control of your WordPress login page design and security with **Custom Login Page Styler**. This plugin allows you to transform the look and functionality of your login page, providing extensive branding options and robust security features—all without the need for coding.
 
 Your login page deserves more than just the default, generic appearance. With **Custom Login Page Styler**, you can easily customize every element, from adding a personalized logo or background to changing the login URL. You can even integrate Google reCAPTCHA and limit login attempts for enhanced security.
 
@@ -29,6 +27,26 @@ The **Login Customization** feature empowers you to create a unique and branded 
 - **Button Customization**: Modify the login button's color, size, and hover effects, ensuring it stands out and aligns with your branding.
 
 This extensive level of customization ensures that your login page is not only functional but also visually aligned with your overall site design, creating a seamless experience for your users.
+
+### Temporary Login 
+A temporary access URL is used to grant someone secure, limited-time access to an admin area without needing a permanent user account or login credentials. This is particularly useful for providing temporary access to developers, support personnel, or collaborators for troubleshooting, updates, or reviews without compromising long-term security.
+
+### Block Ip And Region
+Blocking IPs and regions is often used to enhance security and control access by preventing unwanted or malicious users from specific locations from reaching sensitive parts of a website, like the login page. This strategy helps:
+Reduce Unauthorized Login Attempts: Blocking known malicious IPs or entire regions that frequently attempt unauthorized access can minimize security threats.
+Limit Access from High-Risk Areas: Some regions are known for higher levels of hacking or spam activity, so blocking them can reduce risks.
+Mitigate Brute Force Attacks: Blocking repeated IPs that are trying to guess login credentials can protect your site from brute force attacks.
+This measure is commonly used in high-security environments or websites that need to restrict access to specific geographic regions.
+
+### User Login Logs
+Purpose: Record successful login attempts.
+Details Tracked: Typically includes the username, login time, IP address, user role, and sometimes additional information like session duration and location.
+Use Cases: Useful for security monitoring, tracking when users access the system, and maintaining records for compliance or troubleshooting.
+
+### Failed Login Logs
+Purpose: Record unsuccessful login attempts.
+Details Tracked: Includes the attempted username, IP address, and the time of the failed login.
+Use Cases: Helps identify potential security threats like brute-force attacks, monitor for unauthorized access attempts, and troubleshoot login issues for legitimate users who may be entering incorrect credentials.
 
 ### Limit Login Attempts
 This plugin includes a powerful **Limit Login Attempts** feature, designed to protect your site from brute force attacks. By restricting the number of login attempts from a single IP address, you can significantly reduce the risk of unauthorized access. After exceeding the allowed attempts, users will be temporarily locked out, ensuring that only legitimate users can log in.
@@ -190,16 +208,30 @@ No, all customization options are available in the plugin settings, so you don�
 
 ## Screenshots
 
-1. Admin Settings Page Screenshot.
-2. Admin Settings Page Screenshot.
-3. Login Template Screenshot.
-4. Login Template Screenshot.
-5. Client Login Page Screenshot.
+1. Login Customizer Settings Page Screenshot.
+2. Cahange Admin Login Url Settings  Screenshot.
+3. Temporary Login  Settings Page Screenshot.
+4. Block Ip Block Region Screenshot.
+5. User Login , Failed Login Logs Screenshot.
 6. Client Login Page Screenshot.
-7. Custom Client Login Page Screenshot.
-8. Custom Client Login Page Screenshot.
+7. Client Login Page Screenshot.
+8. Customized Client Login Page Screenshot.
+9. Customized Client Login Page Screenshot.
 
 ## Changelog
+
+### Version 7.1.1
+– **Fixed Bugs**
+– **Added Temporay Access for Admin  1 click Login **
+– **Added Change Login Url , Custom Login url**
+– **Added Block Ip to visit login **
+– **Added Block Region to visit login**
+– **Added Login Logs **
+– **Added Failed Login Attempst Log**
+– **Fixed Css Issues**
+– **Fixed Redirect Issues**
+
+
 
 ### Version 6.2.6
 – **Fixed Bugs**
@@ -244,4 +276,4 @@ No, all customization options are available in the plugin settings, so you don�
 
 ## Upgrade Notice
 
-Upgrade to version 6.2.6 to benefit from numerous enhancements, including real-time live preview for changes, improved media uploader, and new Google Fonts options for text logos and error messages. This update also features Form animations, box shadows, customizable input field text colors, and options for login button size and radius. Ensuring your plugin is up to date will enhance usability and maintain compatibility with the latest WordPress version.
+Upgrade to version 7.1.1 to benefit from numerous enhancements, including real-time live preview for changes, Temporary Login Access, Block Ip and country form visiting login page , User Login Log , Failed Login Logs .
