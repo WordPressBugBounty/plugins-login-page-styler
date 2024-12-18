@@ -199,6 +199,17 @@ function lps_register_settings() {
  */
 function lps_reset_settings() {
 	// List of all options to reset
+	
+	// Check for capability: Only administrators can reset the settings
+    if ( ! current_user_can( 'manage_options' ) ) {
+        wp_send_json_error( array( 'message' => 'Insufficient permissions' ) );
+    }
+
+   // Verify nonce for reset action
+   if ( ! isset( $_POST['nonce'] ) || ! wp_verify_nonce( $_POST['nonce'], 'lps_reset_nonce' ) ) {
+	wp_send_json_error( array( 'message' => 'Invalid reset nonce' ) );
+}
+	
 	$options = array(
 		'lps_login_logo_hide',
 		'lps_login_logo_msg_hide',
@@ -371,7 +382,7 @@ function lps_enqueue_color_picker() {
 		wp_enqueue_script( 'g-fonts-script', plugins_url( 'js/jquery.fontselect.js', __FILE__ ), array( 'jquery' ), '1.021', true );
 
 		wp_enqueue_script( 'login-page-styler', plugins_url( 'js/loginPageStyler.js', __FILE__ ), array( 'wp-color-picker', 'jquery' ), '1.13', true );
-		wp_enqueue_script( 'login-page-styler-mapping', plugins_url( 'js/loginPageStylerMappingJs.js', __FILE__ ), array( 'wp-color-picker', 'jquery' ), '1.1014', true );
+		wp_enqueue_script( 'login-page-styler-mapping', plugins_url( 'js/loginPageStylerMappingJs.js', __FILE__ ), array( 'wp-color-picker', 'jquery' ), '1.1812', true );
 		// Pass the option value to the script
 		$lps_layout = esc_js( trim( get_option( 'lps_layout' ) ) );
 		wp_localize_script( 'login-page-styler-mapping', 'lpsData', array( 'layout' => $lps_layout ) );
@@ -389,9 +400,11 @@ function enqueue_media_uploader_scripts() {
 add_action( 'admin_enqueue_scripts', 'enqueue_media_uploader_scripts' );
 
 
-// Enqueue JavaScript for admin page
+/// Enqueue JavaScript for admin page
 function lps_enqueue_admin_scripts() {
 	// Ensure we're loading the script on the specific admin page
+	if (isset($_GET['page']) && $_GET['page'] === 'lps_temp_access') {
+
 	wp_enqueue_script( 'lps-admin-script', plugins_url( 'js/lpsTempAjax.js', __FILE__ ), array( 'jquery' ), '0.1', true );
 
 	// Pass the AJAX URL and nonce to the script
@@ -404,9 +417,21 @@ function lps_enqueue_admin_scripts() {
 		)
 	);
 }
+}
 add_action( 'admin_enqueue_scripts', 'lps_enqueue_admin_scripts' );
 
 
+
+function lps_enqueue_reset_nonce_script() {
+    if (isset($_GET['page']) && $_GET['page'] === 'lps_option') {
+        wp_enqueue_script('lps-reset-settings-script', plugin_dir_url(__FILE__) . 'js/lpsResetAjax.js', array('jquery'), '1.0', true);
+        wp_localize_script('lps-reset-settings-script', 'lps_reset_ajax_obj', array(
+            'ajax_url' => admin_url('admin-ajax.php'),
+            'nonce'    => wp_create_nonce('lps_reset_nonce')
+        ));
+    }
+}
+add_action('admin_enqueue_scripts', 'lps_enqueue_reset_nonce_script');
 
 
 /**
@@ -1955,34 +1980,7 @@ function lps_settings_page() {
 								<p class='lpsresetbutton'><button type="button" id="lps-reset-button">Reset
 										Settings</button></p>
 
-								<script>
-									document.getElementById('lps-reset-button').addEventListener('click', function() {
-										if (confirm('Are you sure you want to reset settings to defaults?')) {
-											fetch(ajaxurl, {
-													method: 'POST',
-													headers: {
-														'Content-Type': 'application/x-www-form-urlencoded'
-													},
-													body: new URLSearchParams({
-														'action': 'lps_reset_settings'
-													})
-												})
-												.then(response => response.json())
-												.then(data => {
-													if (data.success) {
-														alert(data.data); // Success message
-														location.reload(); // Reload the page to reflect changes
-													} else {
-														alert('Failed to reset settings. Please try again.');
-													}
-												})
-												.catch(error => {
-													console.error('Error:', error);
-													alert('An error occurred. Please try again.');
-												});
-										}
-									});
-								</script>
+								
 								<p class="submit">
 									<input type="submit" id="lpsbutton-primary-main" id="lpsbutton-primary-main"
 										class="button-primary"

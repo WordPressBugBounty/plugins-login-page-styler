@@ -2,6 +2,7 @@ jQuery( document ).ready(
 	function ($) {
 
 		function lps_generate_temp_access_url() {
+			
 			var user_id                = $( '#current_user_id' ).val();
 			var access_expiration_time = $( 'select[name="lps_access_expiration_time"]' ).val();
 

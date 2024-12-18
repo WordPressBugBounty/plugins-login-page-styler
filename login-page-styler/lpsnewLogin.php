@@ -70,7 +70,8 @@ $classes = array( 'login-action-login', 'wp-core-ui', 'locale-' . get_locale() )
 	?>
 
 	<div id="login">
-		<h1><a href="<?php echo esc_url( $login_header_url ); ?>"><?php echo esc_html( $login_header_text ); ?></a></h1>
+	<h1 class="wp-login-logo"><a href="<?php echo esc_url( $login_header_url ); ?>"><?php echo $login_header_text; ?></a></h1>
+
 		<!-- Your custom login template content here -->
 		<?php
 		$rememberme       = ! empty( $_POST['rememberme'] );

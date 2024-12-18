@@ -6,7 +6,7 @@
  * Description: Custom Login Page Styler to  Customize, Brand, Theme, Secure Your Login Page, Customize login logo and so much more.
  * Author: Zia Imtiaz
  * Requires at least: 4.0
- * Version: 7.1.1
+ * Version: 7.1.2
  * Requires PHP:      5.3
  * Author URI:https://pluginnestwp.website/custom-login-page-styler//
  * License: GPLv2
@@ -405,20 +405,20 @@ function lps_body_bg_img() {
  * Adds a background image for the login logo with specified width and height.
  */
 function lps_login_logo() {
-	if ( get_option( 'lps_login_logo' ) !== '' ) {
-		$logo_url = esc_url( get_option( 'lps_login_logo' ) );
-		$logo_width = esc_attr( get_option( 'lps_login_logo_width' ) );
+	if ( get_option( 'lps_login_logo' ) !== '' ){
+		$logo_url    = esc_url( get_option( 'lps_login_logo' ) );
+		$logo_width  = esc_attr( get_option( 'lps_login_logo_width' ) );
 		$logo_height = esc_attr( get_option( 'lps_login_logo_height' ) );
 
 		echo '<style>
-			.login h1 a {
-				margin: 0 auto;
-				background-image: url(' . $logo_url . ');
-				background-size: ' . $logo_width . 'px ' . $logo_height . 'px;
-				width: ' . $logo_width . 'px;
-				height: ' . $logo_height . 'px;
-			}
-		</style>';
+            .login .wp-login-logo a , .login h1 a {
+                margin: 0 auto;
+                background-image: url(' . $logo_url . ');
+                background-size: ' . $logo_width . 'px ' . $logo_height . 'px;
+                width: ' . $logo_width . 'px;
+                height: ' . $logo_height . 'px;
+            }
+        </style>';
 	}
 }
 // add_action('login_head', 'lps_login_logo');.
@@ -737,10 +737,10 @@ function lps_login_text_logo() {
                 background-image: none !important;
                 text-indent: 0 !important;
                 display: block;
-                height: auto;
-				width:auto;
-                font-size: 60px;
-                font-weight: bold;
+                height: auto !important;
+				width:auto !important;
+                font-size: 45px !important;
+                font-weight: bold !important;
                 color: ' . esc_attr( $text_logocolor ) . ';
                 text-decoration: none;
                 font-family: Arial, sans-serif;

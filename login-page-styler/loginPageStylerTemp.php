@@ -106,10 +106,17 @@ function lps_revoke_access( $user_id ) {
 // Handle the AJAX request to revoke access.
 function lps_handle_revoke_access() {
 	// Verify nonce.
-	if ( ! isset( $_POST['nonce'] ) || ! wp_verify_nonce( $_POST['nonce'], 'lps_ajax_nonce' ) ) {
-		wp_send_json_error( array( 'message' => 'Invalid nonce.' ) );
-		return;
-	}
+	// Verify nonce
+    if ( ! isset( $_POST['nonce'] ) || ! wp_verify_nonce( $_POST['nonce'], 'lps_ajax_nonce' ) ) {
+        wp_send_json_error( array( 'message' => 'Invalid nonce.' ) );
+        return;
+    }
+
+    // Check if the current user has the required capability (administrator)
+    if ( ! current_user_can( 'administrator' ) ) {
+        wp_send_json_error( array( 'message' => 'You do not have permission to perform this action.' ) );
+        return;
+    }
 
 	// Check if user_id is passed.
 	if ( isset( $_POST['user_id'] ) ) {
@@ -149,6 +156,12 @@ function lps_handle_generate_temp_access_url() {
 		wp_send_json_error( array( 'message' => 'Invalid nonce.' ) );
 		return;
 	}
+	
+	// Check if the current user has the required capability (e.g., administrator)
+    if ( ! current_user_can( 'manage_options' ) ) {
+        wp_send_json_error( array( 'message' => 'You do not have permission to perform this action.' ) );
+        return;
+    }
 
 	if ( isset( $_POST['user_id'] ) ) {
 		$user_id = intval( $_POST['user_id'] );
