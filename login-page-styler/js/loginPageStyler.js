@@ -1,5 +1,4 @@
-jQuery( document ).ready(
-	function ($) {
-		$( '.color_picker' ).wpColorPicker();
-	}
-);
+jQuery(document).ready(function ($) {
+    $('.color_picker').wpColorPicker();
+});
+

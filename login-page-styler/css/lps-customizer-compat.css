@@ -1,0 +1,163 @@
+
+.lps-customizer-intro{padding:16px;margin-bottom:15px;background:#f0f5ff;border:1px solid #dbe5ff;border-left:4px solid #5265db;border-radius:9px}
+.lps-customizer-intro p{margin:7px 0 0;color:#52617c;line-height:1.6}
+.lps-section-hint{font-size:11px;color:#68768c;margin:0 13px 10px}
+.accordion-container .accordion{margin-bottom:9px}
+.accordion-container .accordion-content{padding:8px 12px 15px}
+.accordion-container .form-table td{padding:11px 8px}
+.accordion-container .form-table label{display:inline-block;margin-bottom:6px;font-weight:600}
+.accordion-container .form-table .description{margin-top:6px;color:#64748b}
+
+.lps-settings-actions{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;padding:18px;margin:15px 0 12px;background:#f8fafc;border:1px solid #dce4ef;border-radius:12px}
+.lps-settings-actions-copy{display:flex;flex-direction:column;gap:5px;color:#18243c}
+.lps-settings-actions-copy span{font-size:12px;color:#64748b}
+.lps-settings-actions-buttons{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.lps-settings-actions-buttons p{margin:0!important}
+.lps-settings-actions-buttons #lpsbutton-primary-main{background:#27344f!important;color:#fff!important;border:0!important;border-radius:9px!important;padding:9px 23px!important;min-height:42px!important;cursor:pointer}
+.lps-settings-actions-buttons #lps-reset-button{background:#fff!important;color:#b42318!important;border:1px solid #f1c6c3!important;border-radius:9px!important;padding:9px 18px!important;min-height:42px!important;cursor:pointer}
+.lps-general-accordion .form-table{width:100%}
+@media(max-width:700px){.lps-settings-actions{align-items:stretch}.lps-settings-actions-buttons{width:100%}}
+
+/* 9.3.8: standalone enable switch, clear settings layout and bottom actions. */
+.lps-plugin-enable{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:13px 18px;margin:12px 0 18px;border:1px solid #dfe7f1;border-radius:10px;background:#f8fafc}
+.lps-plugin-enable-copy{display:flex;flex-direction:column;gap:4px}.lps-plugin-enable-copy strong{font-size:14px;color:#17233b}.lps-plugin-enable-copy span{color:#65748a;font-size:12px}
+.lps-plugin-enable .form-table{width:auto!important;margin:0!important}.lps-plugin-enable .form-table th{display:none!important}.lps-plugin-enable .form-table td{padding:0!important}
+.lps-modern-shell #content1 .wrap form>.wrapper{display:grid!important;grid-template-columns:minmax(270px,34%) minmax(0,1fr)!important;gap:14px!important;align-items:start!important}
+.lps-modern-shell #content1 .wrap form>.wrapper>.accordion-container{grid-column:1!important;grid-row:1!important;width:100%!important;min-width:0!important}
+.lps-modern-shell #content1 .wrap form>.wrapper>.preview-container{grid-column:2!important;grid-row:1 / span 2!important;width:100%!important;min-width:0!important}
+.lps-modern-shell #content1 .wrap form>.wrapper>.lps-settings-actions{grid-column:1!important;grid-row:2!important;width:auto!important;margin:0!important;box-sizing:border-box;flex-direction:column;align-items:stretch}
+.lps-settings-actions-buttons{justify-content:flex-end!important}.lps-general-accordion .form-table{table-layout:auto!important}.lps-general-accordion .form-table th{width:55%!important;min-width:0!important;padding:12px 8px!important;line-height:1.4!important;word-break:normal!important}.lps-general-accordion .form-table td{width:45%!important;padding:12px 6px!important;vertical-align:middle!important}.lps-general-accordion .form-table input[type=number]{max-width:100%!important}
+@media(max-width:950px){.lps-modern-shell #content1 .wrap form>.wrapper{grid-template-columns:1fr!important}.lps-modern-shell #content1 .wrap form>.wrapper>.accordion-container{grid-column:1!important;grid-row:1!important}.lps-modern-shell #content1 .wrap form>.wrapper>.lps-settings-actions{grid-column:1!important;grid-row:2!important}.lps-modern-shell #content1 .wrap form>.wrapper>.preview-container{grid-column:1!important;grid-row:3!important}}
+
+/* 9.3.9: consistent accordion ordering and aligned controls. */
+.lps-modern-shell #content1 .accordion-container>.lps-settings-actions{display:flex!important;position:relative!important;clear:both!important;width:100%!important;margin:18px 0 0!important;padding:16px!important;box-sizing:border-box!important;background:#f8fafc!important;border:1px solid #dce4ef!important;border-radius:12px!important}
+.lps-modern-shell #content1 .accordion-container>.lps-settings-actions .lps-settings-actions-buttons{display:flex!important;justify-content:flex-end!important;gap:10px!important}
+.lps-modern-shell #content1 .lps-general-accordion .accordion-content{padding:14px!important}
+.lps-modern-shell #content1 .lps-general-accordion .form-table,.lps-modern-shell #content1 .lps-general-accordion .form-table tbody{display:block!important;width:100%!important}
+.lps-modern-shell #content1 .lps-general-accordion .form-table tr{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:12px!important;padding:12px 0!important;border-bottom:1px solid #edf1f6!important}
+.lps-modern-shell #content1 .lps-general-accordion .form-table th{display:block!important;flex:1 1 auto!important;width:auto!important;min-width:0!important;padding:0!important;font-size:12px!important;line-height:1.4!important}
+.lps-modern-shell #content1 .lps-general-accordion .form-table td{display:block!important;flex:0 0 auto!important;width:auto!important;min-width:58px!important;padding:0!important;text-align:right!important}
+.lps-modern-shell #content1 .lps-general-accordion .form-table .onoffswitch{margin-left:auto!important}
+.lps-modern-shell #content1 .lps-general-accordion .form-table input[type=number]{width:65px!important}
+.lps-modern-shell #content1 .lps-plugin-enable{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:12px!important;padding:15px!important;margin-bottom:18px!important;background:#fff!important;border:1px solid #e0e7f1!important;border-radius:12px!important}
+.lps-modern-shell #content1 .lps-plugin-enable table{width:auto!important;margin:0!important}
+.lps-modern-shell #content1 .lps-plugin-enable th{display:none!important}
+.lps-modern-shell #content1 .lps-plugin-enable td{padding:0!important}
+
+/* 9.4.0: switches rebuilt to avoid conflicting legacy widths and slider positions. */
+.lps-modern-shell #content1 .lps-general-accordion .onoffswitch,
+.lps-modern-shell #content1 .lps-plugin-enable .onoffswitch{position:relative!important;display:block!important;flex:none!important;width:56px!important;height:28px!important;margin:0 0 0 auto!important;overflow:visible!important}
+.lps-modern-shell #content1 .lps-general-accordion .onoffswitch-label,
+.lps-modern-shell #content1 .lps-plugin-enable .onoffswitch-label{display:block!important;position:relative!important;width:56px!important;height:28px!important;margin:0!important;padding:0!important;border:0!important;border-radius:30px!important;background:#e5e7eb!important;overflow:hidden!important;cursor:pointer!important;box-sizing:border-box!important;transition:background .2s ease!important}
+.lps-modern-shell #content1 .lps-general-accordion .onoffswitch-inner,
+.lps-modern-shell #content1 .lps-plugin-enable .onoffswitch-inner{display:none!important}
+.lps-modern-shell #content1 .lps-general-accordion .onoffswitch-label:before,
+.lps-modern-shell #content1 .lps-plugin-enable .onoffswitch-label:before{content:'No'!important;position:absolute!important;right:7px!important;top:0!important;line-height:28px!important;font-size:11px!important;font-weight:600!important;color:#667085!important}
+.lps-modern-shell #content1 .lps-general-accordion .onoffswitch-switch,
+.lps-modern-shell #content1 .lps-plugin-enable .onoffswitch-switch{display:block!important;position:absolute!important;top:4px!important;left:4px!important;right:auto!important;bottom:auto!important;width:20px!important;height:20px!important;margin:0!important;padding:0!important;border:0!important;border-radius:50%!important;background:#fff!important;box-shadow:0 1px 3px #0002!important;box-sizing:border-box!important;transition:transform .2s ease!important}
+.lps-modern-shell #content1 .lps-general-accordion .onoffswitch-checkbox:checked+.onoffswitch-label,
+.lps-modern-shell #content1 .lps-plugin-enable .onoffswitch-checkbox:checked+.onoffswitch-label{background:#12b76a!important}
+.lps-modern-shell #content1 .lps-general-accordion .onoffswitch-checkbox:checked+.onoffswitch-label:before,
+.lps-modern-shell #content1 .lps-plugin-enable .onoffswitch-checkbox:checked+.onoffswitch-label:before{content:'Yes'!important;left:7px!important;right:auto!important;color:white!important}
+.lps-modern-shell #content1 .lps-general-accordion .onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-switch,
+.lps-modern-shell #content1 .lps-plugin-enable .onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-switch{right:auto!important;transform:translateX(28px)!important}
+.lps-modern-shell #content1 .lps-general-accordion .onoffswitch-checkbox:focus-visible+.onoffswitch-label,
+.lps-modern-shell #content1 .lps-plugin-enable .onoffswitch-checkbox:focus-visible+.onoffswitch-label{outline:2px solid #2563eb!important;outline-offset:3px!important}
+/* The session input is a separate row: never let the help text squeeze the input. */
+.lps-modern-shell #content1 .lps-general-accordion .form-table tr:has(.lps-session-cell){align-items:flex-start!important}
+.lps-modern-shell #content1 .lps-general-accordion .form-table .lps-session-cell{display:flex!important;flex-direction:column!important;align-items:flex-end!important;gap:7px!important;flex:0 0 120px!important;min-width:120px!important}
+.lps-modern-shell #content1 .lps-general-accordion .lps-session-cell #lps_login_session_expire{display:block!important;box-sizing:border-box!important;width:94px!important;min-width:94px!important;max-width:94px!important;height:36px!important;padding:5px 9px!important;background:#fff!important;border:1px solid #cbd5e1!important;border-radius:7px!important;color:#17233b!important;text-align:left!important;opacity:1!important;visibility:visible!important}
+.lps-modern-shell #content1 .lps-general-accordion .lps-session-cell .description{width:175px!important;max-width:175px!important;margin:0!important;font-size:10px!important;line-height:1.5!important;color:#64748b!important;text-align:right!important;white-space:normal!important}
+.lps-modern-shell #content1 .lps-general-accordion .form-table tr:has(.lps-session-cell){flex-wrap:wrap!important}
+@media(max-width:640px){.lps-modern-shell #content1 .lps-general-accordion .lps-session-cell .description{width:130px!important;max-width:130px!important}}
+
+/* 9.4.1: Consistent control rows throughout every settings accordion. */
+.lps-modern-shell #content1 .wrap form>.wrapper{grid-template-columns:minmax(260px,20fr) minmax(0,80fr)!important;gap:16px!important}
+.lps-modern-shell #content1 .wrap form>.wrapper>.accordion-container{min-width:0!important}
+.lps-modern-shell #content1 .wrap form>.wrapper>.preview-container{min-width:0!important;width:100%!important}
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .accordion-content{padding:14px 12px 18px!important}
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table{display:block!important;width:100%!important;margin:0!important;table-layout:auto!important}
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table tbody{display:block!important;width:100%!important}
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table tr{display:block!important;width:100%!important;padding:13px 0!important;border-bottom:1px solid #edf1f6!important;box-sizing:border-box!important}
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table tr:last-child{border-bottom:0!important}
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table th,
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table td{display:block!important;width:100%!important;min-width:0!important;max-width:100%!important;padding:0!important;margin:0!important;box-sizing:border-box!important;text-align:left!important;vertical-align:top!important}
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table th{margin-bottom:8px!important;font-size:12px!important;line-height:1.5!important;font-weight:600!important;color:#344054!important}
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table td>label:first-child{display:block!important;margin-bottom:8px!important;font-size:12px!important;color:#344054!important}
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table input[type=text],
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table input[type=number],
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table input[type=url],
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table select,
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table textarea{box-sizing:border-box!important;max-width:100%!important;width:100%!important;min-width:0!important;border-radius:7px!important;border-color:#d0d9e5!important}
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table textarea{min-height:110px!important;resize:vertical!important}
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table input[type=range]{max-width:100%!important;width:100%!important;accent-color:#344767!important}
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table .description{display:block!important;max-width:100%!important;overflow-wrap:anywhere!important;margin:7px 0 0!important;font-size:11px!important;line-height:1.55!important;color:#64748b!important}
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table .wp-picker-container{max-width:100%!important}
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table .wp-picker-input-wrap{max-width:100%!important}
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table .wp-picker-input-wrap input{max-width:105px!important;width:auto!important}
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table button,
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table .button{border-radius:7px!important}
+.lps-modern-shell #content1 .accordion-container>.accordion:not(.lps-general-accordion) .form-table .onoffswitch{margin-left:0!important}
+/* Keep media upload controls and colour pickers intact; only style their containers. */
+@media(max-width:1450px){.lps-modern-shell #content1 .wrap form>.wrapper{grid-template-columns:minmax(260px,28fr) minmax(0,72fr)!important}}
+@media(max-width:1050px){.lps-modern-shell #content1 .wrap form>.wrapper{grid-template-columns:minmax(260px,34fr) minmax(0,66fr)!important}}
+@media(max-width:800px){.lps-modern-shell #content1 .wrap form>.wrapper{grid-template-columns:minmax(0,1fr)!important}.lps-modern-shell #content1 .wrap form>.wrapper>.accordion-container{grid-column:1!important;grid-row:1!important}.lps-modern-shell #content1 .wrap form>.wrapper>.preview-container{grid-column:1!important;grid-row:2!important}}
+
+/* 9.8.1: prevent session help text clipping in narrow accordion columns. */
+.lps-modern-shell #content1 .lps-general-accordion .form-table tr:has(.lps-session-cell){display:block!important;width:100%!important}
+.lps-modern-shell #content1 .lps-general-accordion .form-table tr:has(.lps-session-cell)>th{display:block!important;width:100%!important;max-width:100%!important;padding-bottom:7px!important}
+.lps-modern-shell #content1 .lps-general-accordion .form-table .lps-session-cell{display:flex!important;align-items:flex-start!important;flex-direction:column!important;min-width:0!important;width:100%!important;max-width:100%!important;box-sizing:border-box!important;padding:0!important}
+.lps-modern-shell #content1 .lps-general-accordion .lps-session-cell .description{width:auto!important;max-width:100%!important;text-align:left!important;overflow-wrap:anywhere!important;font-size:11px!important;line-height:1.55!important}
+/* Keep number and range fields aligned and readable. */
+#content1 .accordion-content input[type=number]{max-width:100%!important;box-sizing:border-box!important}
+
+/* 9.9.35.35 — Visual template chooser, scoped to the main LPS admin page. */
+.lps-modern-shell .lps-global-notices{margin:14px 0 16px;clear:both}
+.lps-modern-shell .lps-global-notices:empty{display:none}
+.lps-modern-shell .lps-global-notices .notice{margin:0 0 10px!important;max-width:none;box-sizing:border-box}
+.lps-modern-shell .lps-visual-gallery{margin:12px 0 26px;background:#fff;border:1px solid #e0e7f1;border-radius:16px;padding:20px 22px}
+.lps-modern-shell .lps-gallery-heading h2{font-size:18px;line-height:1.3;margin:0 0 5px;color:#18263a}
+.lps-modern-shell .lps-gallery-heading p{font-size:12px;color:#65758a;line-height:1.6;margin:0 0 16px}
+.lps-modern-shell .lps-gallery-native-select{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip-path:inset(50%)!important;white-space:nowrap!important;opacity:0!important;pointer-events:none!important}
+.lps-modern-shell .lps-gallery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.lps-modern-shell .lps-gallery-item{position:relative;display:flex;flex-direction:column;text-align:left;cursor:pointer;min-width:0;padding:7px;border:1px solid #e1e7f0;border-radius:12px;background:#fff;transition:border-color .15s,box-shadow .15s,transform .15s}
+.lps-modern-shell .lps-gallery-item:hover{border-color:#8193c7;transform:translateY(-1px);box-shadow:0 4px 14px #142a4b16}
+.lps-modern-shell .lps-gallery-item.is-selected{border-color:#6257e8;box-shadow:0 0 0 2px #6257e822}
+.lps-modern-shell .lps-gallery-item:focus-visible{outline:3px solid #3b82f6;outline-offset:3px}
+.lps-modern-shell .lps-gallery-art{height:112px;border-radius:8px;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative;background:#ecf2fb}
+.lps-modern-shell .lps-gallery-art--minimal{background:radial-gradient(at 15% 5%,#dbeafe,transparent 55%),linear-gradient(120deg,#f8fafc,#e9ecf8)}
+.lps-modern-shell .lps-gallery-art--nature{background:radial-gradient(at 80% 25%,#d5f5d8aa,transparent 60%),linear-gradient(120deg,#12392f,#3f7461)}
+.lps-modern-shell .lps-gallery-art--noir{background:linear-gradient(135deg,#090e20,#202b43)}
+.lps-modern-shell .lps-gallery-art--split{background:linear-gradient(90deg,#6051d6 0 49%,#f6f8ff 49%)}
+.lps-modern-shell .lps-gallery-art--aurora{background:radial-gradient(at 20% 15%,#db1aa880,transparent 50%),radial-gradient(at 85% 90%,#efab3677,transparent 48%),linear-gradient(125deg,#130d24,#55315e,#072c47)}
+.lps-modern-shell .lps-gallery-mockup{display:flex;flex-direction:column;gap:5px;align-items:stretch;width:75px;min-height:80px;background:#fff;border-radius:5px;padding:10px;box-shadow:0 7px 20px #10182830;box-sizing:border-box}
+.lps-modern-shell .lps-gallery-dot{display:block;align-self:center;width:12px;height:12px;border-radius:50%;background:#94a3b8}
+.lps-modern-shell .lps-gallery-lines{width:62%;height:4px;border-radius:2px;background:#94a3b8;align-self:center}
+.lps-modern-shell .lps-gallery-field{height:9px;border-radius:2px;background:#e9eef6;border:1px solid #d9e0eb}
+.lps-modern-shell .lps-gallery-cta{height:11px;border-radius:3px;background:#5b66ca}
+.lps-modern-shell .lps-gallery-art--noir .lps-gallery-mockup{background:#141d31;border-top:2px solid #e2bd83}
+.lps-modern-shell .lps-gallery-art--noir .lps-gallery-field{background:#26344f;border:0;border-bottom:1px solid #d4b77c}
+.lps-modern-shell .lps-gallery-art--noir .lps-gallery-cta{background:#e2bd83}
+.lps-modern-shell .lps-gallery-art--nature .lps-gallery-mockup{background:#edf9f4ab;backdrop-filter:blur(4px);border:1px solid #ffffff77}
+.lps-modern-shell .lps-gallery-art--aurora .lps-gallery-mockup{width:120px;background:#ffffff23;border:1px solid #ffffff77;border-radius:11px;backdrop-filter:blur(5px)}
+.lps-modern-shell .lps-gallery-art--aurora .lps-gallery-field{background:#ffffff35;border:1px solid #ffffff40;border-radius:9px}
+.lps-modern-shell .lps-gallery-art--aurora .lps-gallery-cta{background:linear-gradient(90deg,#ec19be,#ffab3e);border-radius:9px}
+.lps-modern-shell .lps-gallery-art--split .lps-gallery-mockup{transform:translateX(30px);width:65px}
+.lps-modern-shell .lps-gallery-meta{display:flex;flex-direction:column;gap:3px;padding:9px 7px 5px}
+.lps-modern-shell .lps-gallery-meta strong{font-size:12px;color:#19263c;line-height:1.4}
+.lps-modern-shell .lps-gallery-meta small{font-size:11px;color:#758196;line-height:1.35}
+.lps-modern-shell .lps-gallery-selected{display:none;position:absolute;top:13px;right:13px;width:20px;height:20px;border-radius:50%;background:#5a57e8;color:#fff;text-align:center;line-height:20px;font-size:12px;font-weight:700}
+.lps-modern-shell .lps-gallery-item.is-selected .lps-gallery-selected{display:block}
+@media(max-width:1080px){.lps-modern-shell .lps-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.lps-modern-shell .lps-gallery-grid{grid-template-columns:1fr}}
+
+/* The Noir preview scrolls within the existing stage instead of clipping the
+   logo or the footer when the full editorial form exceeds the viewport. */
+#content1 .lps-preview-stage.lps-noir-tall-preview {
+  max-height: 860px;
+  overflow-y: auto !important;
+  align-items: flex-start;
+}
+#content1 .lps-preview-stage.lps-noir-tall-preview #lps-iframe {
+  flex-shrink: 0;
+}

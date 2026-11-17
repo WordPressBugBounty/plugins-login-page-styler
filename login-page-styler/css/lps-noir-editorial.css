@@ -1,0 +1,200 @@
+/* Noir Editorial: distinctive dark editorial card with underlined inputs.
+ * All styling is scoped to the login body class and never changes auth forms.
+ * Common Customizer settings override these visual defaults via unified output.
+ */
+body.login.lps-noir-editorial { background-color:#0b1020; background-image:radial-gradient(circle at 88% 8%,rgba(82,95,177,.24),transparent 38%),radial-gradient(circle at 5% 95%,rgba(31,122,131,.16),transparent 42%);color:#e8ebf5; }
+body.login.lps-noir-editorial #login {box-sizing:border-box;width:min(460px,calc(100% - 32px));max-width:100%;padding:28px 0;}
+body.login.lps-noir-editorial #login h1 {text-align:left;margin:0 0 20px;}
+body.login.lps-noir-editorial #login h1 a {margin:0;background-position:left center;background-size:contain;}
+body.login.lps-noir-editorial #loginform,body.login.lps-noir-editorial #registerform,body.login.lps-noir-editorial #lostpasswordform {box-sizing:border-box;background:#131b2f;border:1px solid #39425a;border-top:3px solid #c1aa83;border-radius:4px;box-shadow:0 24px 75px rgba(0,0,0,.3);padding:36px 38px 30px;}
+body.login.lps-noir-editorial #login label {color:#d9dfed;font-weight:600;letter-spacing:.055em;text-transform:uppercase;font-size:11px;}
+body.login.lps-noir-editorial #login .input,body.login.lps-noir-editorial #login input[type=text],body.login.lps-noir-editorial #login input[type=password],body.login.lps-noir-editorial #login input[type=email] {box-sizing:border-box;min-height:48px;color:#f7f8fb;background:#1b2438;border:0;border-bottom:2px solid #77839c;border-radius:0;box-shadow:none;padding:10px 12px;transition:border-color .2s ease;}
+body.login.lps-noir-editorial #login .input:focus {border-bottom-color:#e5c797;outline:2px solid transparent;box-shadow:0 2px 0 0 #e5c797;}
+body.login.lps-noir-editorial #login .forgetmenot {float:none;margin:16px 0 8px;}
+body.login.lps-noir-editorial #login input[type=checkbox] {accent-color:#e5c797;}
+body.login.lps-noir-editorial #login .submit {float:none;clear:both;margin-top:22px;}
+body.login.lps-noir-editorial #login .button-primary {display:block;float:none;box-sizing:border-box;width:100%;min-height:50px;background:#e5c797;color:#172035;border:1px solid #e5c797;border-radius:3px;font-weight:700;letter-spacing:.065em;text-transform:uppercase;box-shadow:none;transition:background-color .2s ease;}
+body.login.lps-noir-editorial #login .button-primary:hover {background:#f1d7aa;border-color:#f1d7aa;color:#172035;}
+body.login.lps-noir-editorial #nav,body.login.lps-noir-editorial #backtoblog {text-align:left;margin:14px 0;padding:0;}
+body.login.lps-noir-editorial #nav a,body.login.lps-noir-editorial #backtoblog a {color:#ccd4e7;}
+body.login.lps-noir-editorial #nav a:hover,body.login.lps-noir-editorial #backtoblog a:hover {color:#f1d7aa;}
+body.login.lps-noir-editorial #login_error,body.login.lps-noir-editorial .message {border-radius:4px;box-sizing:border-box;}
+@media(max-width:480px){body.login.lps-noir-editorial #login {width:min(440px,calc(100% - 24px));padding:16px 0;}body.login.lps-noir-editorial #loginform,body.login.lps-noir-editorial #registerform,body.login.lps-noir-editorial #lostpasswordform {padding:26px 22px;}}
+
+/* Prevent WordPress login notices, errors, and registration messages from
+   clipping vertically on this template. The same stylesheet runs in the
+   existing Customizer iframe and the published login page. */
+body.login.lps-noir-editorial #login > :is(#login_error,.message,.notice,.success) {
+  box-sizing:border-box!important; max-width:100%!important; width:100%!important;
+  margin:0 auto 18px!important; padding:14px 18px!important;
+  border-radius:12px!important; line-height:1.55!important; overflow-wrap:anywhere;
+}
+body.login.lps-noir-editorial:has(#login > :is(#login_error,.message,.notice,.success)) {
+  height:auto!important; min-height:100vh!important;
+  justify-content:flex-start!important; overflow-y:auto!important;
+}
+body.login.lps-noir-editorial:has(#login > :is(#login_error,.message,.notice,.success)) #login {
+  margin-top:0!important; margin-bottom:0!important;
+}
+
+/* Noir Editorial 8.0.0 — refined editorial visual identity.
+ * Purely presentational: no authentication or settings logic is changed.
+ * Explicit Customizer values still take precedence via the unified style engine.
+ */
+body.login.lps-noir-editorial {
+  background-color:#090a10;
+  background-image:
+    radial-gradient(ellipse at 76% 9%,rgba(168,135,87,.15),transparent 39%),
+    radial-gradient(ellipse at 12% 91%,rgba(57,67,93,.24),transparent 45%),
+    linear-gradient(135deg,#08090e 0%,#11131e 54%,#08090d 100%);
+  background-attachment:fixed;
+  color:#f6f0e7;
+}
+body.login.lps-noir-editorial #login {
+  width:min(490px,calc(100% - 32px));
+  padding-top:24px;
+  padding-bottom:24px;
+}
+body.login.lps-noir-editorial #login > h1 {
+  text-align:center;
+  margin:0 auto 22px;
+}
+body.login.lps-noir-editorial #login > h1 a {
+  margin:0 auto;
+  background-position:center;
+  background-size:contain;
+  filter:grayscale(1) brightness(0) invert(.79) sepia(.18) saturate(.75);
+}
+body.login.lps-noir-editorial #login form {
+  background:#11131b;
+  border:1px solid rgba(198,166,114,.46);
+  border-top:1px solid rgba(224,196,151,.78);
+  border-radius:10px;
+  box-shadow:0 34px 90px rgba(0,0,0,.48),inset 0 1px 0 rgba(255,255,255,.025);
+  padding:34px 36px 36px;
+  position:relative;
+  overflow:visible;
+}
+/* Text belongs to the CSS presentation, not a second saved heading option. */
+body.login.lps-noir-editorial #login #loginform::before,
+body.login.lps-noir-editorial #login #registerform::before,
+body.login.lps-noir-editorial #login #lostpasswordform::before {
+  display:block;
+  margin:0 0 31px;
+  padding:0 0 23px;
+  color:#f4ecdf;
+  border-bottom:1px solid rgba(215,184,137,.25);
+  font:normal clamp(31px,3.6vw,40px)/1.12 Georgia,'Times New Roman',serif;
+  letter-spacing:-.035em;
+}
+body.login.lps-noir-editorial #login #loginform::before {content:'Welcome back.';}
+body.login.lps-noir-editorial #login #registerform::before {content:'Join the studio.';}
+body.login.lps-noir-editorial #login #lostpasswordform::before {content:'Start again.';}
+body.login.lps-noir-editorial #login form::after {
+  content:'NOIR  /  EDITORIAL';
+  position:absolute;
+  right:36px;
+  top:18px;
+  font:600 9px/1.3 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  letter-spacing:.22em;
+  color:#c9a976;
+}
+body.login.lps-noir-editorial #login form label {
+  color:#c9c4bd;
+  font-size:10px;
+  font-weight:600;
+  line-height:1.6;
+  letter-spacing:.15em;
+  text-transform:uppercase;
+}
+body.login.lps-noir-editorial #login form .input,
+body.login.lps-noir-editorial #login form input[type=text],
+body.login.lps-noir-editorial #login form input[type=password],
+body.login.lps-noir-editorial #login form input[type=email] {
+  min-height:49px;
+  background:#171a23;
+  color:#f7f1e8;
+  border:1px solid #36343b;
+  border-bottom:1px solid #a98c63;
+  border-radius:5px 5px 2px 2px;
+  padding:10px 14px;
+  margin-top:7px;
+  box-shadow:none;
+  transition:border-color .22s ease,box-shadow .22s ease;
+}
+body.login.lps-noir-editorial #login form .input:focus,
+body.login.lps-noir-editorial #login form input[type=text]:focus,
+body.login.lps-noir-editorial #login form input[type=password]:focus,
+body.login.lps-noir-editorial #login form input[type=email]:focus {
+  border-color:#d7b985;
+  box-shadow:0 0 0 2px rgba(215,185,133,.16);
+  outline:none;
+}
+body.login.lps-noir-editorial #login .forgetmenot {margin:20px 0 10px;}
+body.login.lps-noir-editorial #login .forgetmenot label {letter-spacing:.06em;color:#d0c9bf;}
+body.login.lps-noir-editorial #login form .submit {margin-top:25px;}
+body.login.lps-noir-editorial #login form .button-primary {
+  min-height:51px;
+  background:#d6b783;
+  color:#17130e;
+  border:1px solid #d6b783;
+  border-radius:4px;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.15em;
+  text-transform:uppercase;
+  transition:background-color .2s ease,color .2s ease,border-color .2s ease,transform .2s ease;
+}
+body.login.lps-noir-editorial #login form .button-primary:hover {
+  background:#ead2a9;
+  border-color:#ead2a9;
+  color:#17130e;
+  transform:translateY(-1px);
+}
+body.login.lps-noir-editorial #nav,
+body.login.lps-noir-editorial #backtoblog {text-align:center;margin:17px 0 0;line-height:1.8;}
+body.login.lps-noir-editorial #nav a,
+body.login.lps-noir-editorial #backtoblog a {color:#bfb5a5;font-size:12px;text-decoration:none;}
+body.login.lps-noir-editorial #nav a:hover,
+body.login.lps-noir-editorial #backtoblog a:hover {color:#e8cf9f;text-decoration:underline;text-underline-offset:4px;}
+body.login.lps-noir-editorial #login > :is(#login_error,.message,.notice,.success) {
+  background:rgba(27,29,37,.96);
+  color:#ece3d7;
+  border-left:3px solid #d4b681;
+}
+@media(max-width:520px){
+  body.login.lps-noir-editorial #login{width:calc(100% - 28px);}
+  body.login.lps-noir-editorial #login form{padding:29px 23px 28px;}
+  body.login.lps-noir-editorial #login form::after{right:23px;top:14px;}
+  body.login.lps-noir-editorial #login #loginform::before,
+  body.login.lps-noir-editorial #login #registerform::before,
+  body.login.lps-noir-editorial #login #lostpasswordform::before{font-size:31px;padding-top:8px;}
+}
+@media(prefers-reduced-motion:reduce){
+  body.login.lps-noir-editorial #login form .button-primary{transition:none;transform:none!important;}
+}
+/* Keep the overline separate from the editorial heading. */
+body.login.lps-noir-editorial #login #loginform::before,
+body.login.lps-noir-editorial #login #registerform::before,
+body.login.lps-noir-editorial #login #lostpasswordform::before {padding-top:24px;}
+
+
+/* Noir readability: the default card must not inherit WordPress's narrow
+   320px width. An explicitly saved Form Width greater than 320px is applied
+   later by the unified engine, while mobile devices remain fluid. */
+body.login.lps-noir-editorial #login {
+  box-sizing: border-box !important;
+  width: min(490px, calc(100% - 32px)) !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+body.login.lps-noir-editorial #login form {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+@media (max-width: 520px) {
+  body.login.lps-noir-editorial #login { width: calc(100% - 28px) !important; }
+}

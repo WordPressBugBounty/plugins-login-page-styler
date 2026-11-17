@@ -1,0 +1,161 @@
+/* Aurora Glass 9.9.35.23 — single unified two-column form.
+   Built on Nature Pro's proven pattern: the form IS the glass surface.
+   Only selectors scoped to Aurora are used; existing form and OAuth behavior stay intact. */
+body.login.lps-aurora-glass{
+  background-color:#08070c!important;
+  background-image:url('../images/lps-aurora-ribbons.svg')!important;
+  background-position:center center!important;background-size:cover!important;
+  background-repeat:no-repeat!important;background-attachment:fixed!important;
+  color:#fff;min-height:100vh!important;box-sizing:border-box!important;
+  font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+body.login.lps-aurora-glass #login{
+  width:min(1020px,100%)!important;max-width:100%!important;min-width:0!important;
+  position:relative!important;z-index:1;margin:0 auto!important;padding:0!important;
+  background:none!important;border:0!important;box-shadow:none!important;
+  backdrop-filter:none!important;-webkit-backdrop-filter:none!important;
+}
+body.login.lps-aurora-glass #login form{
+  display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  column-gap:clamp(26px,4vw,66px);align-items:stretch;
+  width:100%!important;max-width:none!important;min-width:0;
+  padding:clamp(27px,4vw,56px)!important;margin:0!important;
+  border-radius:28px!important;border:1px solid rgba(255,255,255,.45)!important;
+  box-shadow:0 26px 90px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.21),0 0 38px rgba(255,48,182,.11)!important;
+  /* Blur is applied by the shared per-template slider (24px by default). */
+  box-sizing:border-box!important;color:#fff!important;
+}
+/* Default translucent surface; explicit Main Customizer form backgrounds win. */
+body.login.lps-aurora-glass:not(.lps-aurora-custom-form-background) #login form{
+  background:linear-gradient(123deg,rgba(217,163,222,.17),rgba(39,36,49,.68) 36%,rgba(30,28,41,.77) 70%,rgba(241,141,38,.14))!important;
+}
+body.login.lps-aurora-glass .lps-aurora-brand{
+  display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;
+  min-width:0;padding:2px clamp(16px,3vw,44px) 2px 0;
+  border-right:1px solid rgba(255,255,255,.57);gap:22px;
+}
+body.login.lps-aurora-glass .lps-aurora-brand > h1{margin:0!important;width:100%;text-align:left!important;line-height:1!important}
+body.login.lps-aurora-glass .lps-aurora-brand > h1 a{
+  display:block;margin:0!important;background-position:left center!important;
+  background-size:contain!important;max-width:100%;filter:drop-shadow(0 2px 10px rgba(0,0,0,.2));
+}
+body.login.lps-aurora-glass .lps-aurora-brand-story{margin:auto 0;max-width:330px}
+body.login.lps-aurora-glass .lps-aurora-brand-story .lps-aurora-kicker{
+  color:#ffe4f6;font-size:11px;font-weight:750;letter-spacing:.17em;text-transform:uppercase;
+}
+body.login.lps-aurora-glass .lps-aurora-brand-story h2{
+  color:#fff;font-size:clamp(30px,3.7vw,51px);letter-spacing:-.05em;
+  line-height:1.08;font-weight:760;margin:17px 0 18px;
+}
+body.login.lps-aurora-glass .lps-aurora-brand-story p{
+  font-size:14px;line-height:1.75;color:rgba(255,255,255,.8);margin:0;
+}
+body.login.lps-aurora-glass .lps-aurora-brand-footer{display:none!important}
+body.login.lps-aurora-glass .lps-aurora-fields{min-width:0;align-self:center}
+body.login.lps-aurora-glass .lps-aurora-welcome{margin:0 0 25px;text-align:left;color:#fff}
+body.login.lps-aurora-glass .lps-aurora-welcome h2{
+  font-size:clamp(26px,3vw,38px);font-weight:760;letter-spacing:-.04em;
+  line-height:1.2;margin:0 0 8px;color:#fff;
+}
+body.login.lps-aurora-glass .lps-aurora-welcome p{margin:0;color:rgba(255,255,255,.76);font-size:14px}
+body.login.lps-aurora-glass #login form p{margin-bottom:17px}
+body.login.lps-aurora-glass #login form label{display:block;color:#fff;font-size:13px;font-weight:600;line-height:1.45;margin-bottom:6px}
+body.login.lps-aurora-glass #login form input.input,
+body.login.lps-aurora-glass #login form input[type=text],
+body.login.lps-aurora-glass #login form input[type=email],
+body.login.lps-aurora-glass #login form input[type=password]{
+  box-sizing:border-box!important;width:100%;min-height:50px!important;border-radius:999px!important;
+  color:#fff!important;border:1px solid rgba(255,255,255,.24)!important;
+  background:rgba(255,255,255,.13)!important;padding:11px 19px!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.07)!important;
+}
+body.login.lps-aurora-glass #login form input.input:focus{
+  outline:0;border-color:rgba(255,211,255,.85)!important;
+  box-shadow:0 0 0 3px rgba(255,138,227,.18)!important;
+}
+body.login.lps-aurora-glass #login form input:-webkit-autofill{
+  -webkit-text-fill-color:#fff;transition:background-color 9999s ease-out;
+}
+body.login.lps-aurora-glass #login .forgetmenot{float:none;margin:14px 0 21px}
+body.login.lps-aurora-glass #login .forgetmenot label{display:inline;font-weight:500}
+body.login.lps-aurora-glass #login .submit{float:none;clear:both;margin:0}
+body.login.lps-aurora-glass #login .button-primary{
+  float:none;width:100%;min-height:52px;border-radius:999px!important;
+  border:1px solid rgba(255,255,255,.3)!important;
+  background:linear-gradient(110deg,#e920cf,#f3499d 60%,#ffab2c)!important;
+  box-shadow:0 8px 28px rgba(234,36,153,.30)!important;
+  color:#fff!important;font-weight:750;font-size:15px;text-shadow:none!important;
+  transition:filter .18s,transform .18s;
+}
+body.login.lps-aurora-glass #login .button-primary:hover{filter:brightness(1.13);transform:translateY(-1px)}
+body.login.lps-aurora-glass #nav,body.login.lps-aurora-glass #backtoblog{
+  padding:0!important;margin:14px auto 0!important;text-align:center!important
+}
+body.login.lps-aurora-glass #nav a,body.login.lps-aurora-glass #backtoblog a{color:#f7edf8!important;text-decoration:none}
+body.login.lps-aurora-glass #nav a:hover,body.login.lps-aurora-glass #backtoblog a:hover{text-decoration:underline}
+body.login.lps-aurora-glass .lps-social-wrap{margin:20px 0 8px}
+body.login.lps-aurora-glass .lps-social-divider{color:rgba(255,255,255,.8)}
+body.login.lps-aurora-glass #login_error,body.login.lps-aurora-glass .message{
+  background:rgba(19,15,34,.85)!important;color:#fff!important;border-radius:12px
+}
+body.login.lps-aurora-glass .copyright{
+  position:static!important;float:none!important;clear:both!important;
+  margin:18px auto 0!important;width:100%!important;text-align:center!important;color:#fff!important
+}
+/* In the narrower embedded preview, use the same responsive rules as frontend. */
+@media(max-width:820px){
+ body.login.lps-aurora-glass #login{width:min(550px,100%)!important}
+ body.login.lps-aurora-glass #login form{grid-template-columns:1fr;gap:26px;padding:30px 26px!important}
+ body.login.lps-aurora-glass .lps-aurora-brand{border-right:0;border-bottom:1px solid rgba(255,255,255,.35);padding:0 0 18px;gap:12px}
+ body.login.lps-aurora-glass .lps-aurora-brand-story{margin:0}
+ body.login.lps-aurora-glass .lps-aurora-brand-story h2{font-size:28px;margin:9px 0}
+ body.login.lps-aurora-glass .lps-aurora-brand-footer{display:none}
+}
+@media(max-width:460px){
+ body.login.lps-aurora-glass{padding:15px 12px!important}
+ body.login.lps-aurora-glass #login form{padding:23px 20px!important;border-radius:20px!important}
+ body.login.lps-aurora-glass .lps-aurora-brand-story h2{font-size:26px}
+}
+@media(prefers-reduced-motion:reduce){body.login.lps-aurora-glass .button-primary{transition:none}}
+
+/* Aurora template controls, without overriding shared form/background fields. */
+body.login.lps-aurora-glass #login form{grid-template-columns:minmax(0,var(--lps-aurora-width,49%)) minmax(0,1fr)}
+body.login.lps-aurora-glass .lps-aurora-brand-story h2{font-family:var(--lps-aurora-headline-font,Inter),sans-serif!important;font-size:var(--lps-aurora-headline-size,48px)!important;color:var(--lps-aurora-text,#fff)!important}
+body.login.lps-aurora-glass .lps-aurora-welcome h2{font-family:var(--lps-aurora-welcome-font,Inter),sans-serif!important;font-size:var(--lps-aurora-welcome-size,36px)!important;color:var(--lps-aurora-text,#fff)!important}
+body.login.lps-aurora-glass .lps-aurora-brand-story p,body.login.lps-aurora-glass .lps-aurora-brand-footer,body.login.lps-aurora-glass .lps-aurora-welcome p{color:var(--lps-aurora-text,#fff)!important}
+@media(max-width:820px){body.login.lps-aurora-glass #login form{grid-template-columns:1fr!important;direction:ltr!important}body.login.lps-aurora-glass .lps-aurora-brand{border-left:0!important;padding:0 0 18px!important}}
+
+/* Aurora-only accent applies to visible highlights in both admin preview and frontend.
+   Core form styling continues to come from the main Customizer. */
+body.login.lps-aurora-glass .lps-aurora-kicker{color:var(--lps-aurora-accent,#f3499d)!important}
+body.login.lps-aurora-glass #login form input.input:focus,
+body.login.lps-aurora-glass #login form input[type=text]:focus,
+body.login.lps-aurora-glass #login form input[type=password]:focus{border-color:var(--lps-aurora-accent,#f3499d)!important}
+body.login.lps-aurora-glass #login .button-primary{background:linear-gradient(110deg,#e920cf,var(--lps-aurora-accent,#f3499d) 60%,#ffab2c)!important}
+
+
+/* Aurora feedback layout: WordPress prints errors/notices as siblings ABOVE
+   the form. Keep them compact and prevent tall registration/recovery views
+   from being vertically clipped by the centered page layout. */
+body.login.lps-aurora-glass #login > #login_error,
+body.login.lps-aurora-glass #login > .message,
+body.login.lps-aurora-glass #login > .notice,
+body.login.lps-aurora-glass #login > .success {
+  box-sizing: border-box !important;
+  width: min(640px, 100%) !important;
+  max-width: 100% !important;
+  margin: 0 auto 18px !important;
+  padding: 14px 18px !important;
+  border-radius: 12px !important;
+  line-height: 1.55 !important;
+  overflow-wrap: anywhere;
+}
+/* When WordPress inserts feedback, prefer top-aligned scrollable content
+   instead of vertical centering that can push the notice above the viewport. */
+body.login.lps-aurora-glass:has(#login > :is(#login_error, .message, .notice, .success)) {
+  justify-content: flex-start !important;
+  overflow-y: auto !important;
+}
+body.login.lps-aurora-glass:has(#login > :is(#login_error, .message, .notice, .success)) #login {
+  margin: 0 auto !important;
+}

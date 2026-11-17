@@ -1,0 +1,29 @@
+/* Pro labels are restrained and do not replace the original Customizer design. */
+#content1 .lps-customizer-pro-badge{display:inline-flex;align-items:center;margin-left:9px;padding:2px 8px;border-radius:18px;background:#f0eaff;color:#6b3dae;font-size:11px;font-weight:700;vertical-align:middle;line-height:1.7}
+#content1 .lps-customizer-pro-intro{box-sizing:border-box;border:1px solid #e4e7ed;border-radius:10px;padding:12px 13px;background:#f8fafc;color:#364152;margin:3px 0 16px;line-height:1.45;font-size:12px}
+#content1 .lps-customizer-pro-intro__top{display:flex;align-items:center;gap:7px;flex-wrap:wrap;color:#25344d}
+#content1 .lps-customizer-pro-intro__top .dashicons{font-size:16px;width:17px;height:17px;color:#7355b5}
+#content1 .lps-customizer-pro-intro__badge{font-size:10px;line-height:1.4;padding:2px 7px;background:#efebfa;border-radius:12px;color:#6b4cac;font-weight:700}
+#content1 .lps-customizer-pro-intro p{font-size:12px;line-height:1.5;margin:7px 0 5px;color:#667085}
+#content1 .lps-customizer-pro-intro a{display:inline-block;font-weight:650;text-decoration:none;white-space:nowrap}
+#content1 .lps-customizer-pro-intro a:hover{text-decoration:underline}
+#content1 .lps-design-workspace-intro{box-sizing:border-box;display:flex!important;align-items:flex-start!important;gap:10px!important;margin:20px 0 12px!important;padding:0 0 14px!important;border-bottom:1px solid #e9edf3!important}
+#content1 .lps-design-workspace-intro>.dashicons{flex:none;width:20px;height:20px;font-size:18px;margin-top:3px;color:#475569}
+#content1 .lps-design-workspace-intro__copy{display:flex!important;flex-direction:column!important;gap:4px!important;min-width:0}
+#content1 .lps-design-workspace-intro__copy strong{display:block!important;margin:0!important;font-size:17px!important;line-height:1.35!important;color:#253044!important}
+#content1 .lps-design-workspace-intro__copy span{display:block!important;margin:0!important;color:#687589!important;font-size:12px!important;line-height:1.55!important}
+
+#content1 .lps-preview-only-setting{position:relative}
+#content1 .lps-background-animation-field{padding:12px 10px;background:#fbf9ff;border-radius:9px;margin-bottom:8px}
+#content1 .lps-background-animation-field select{min-width:220px;max-width:100%}
+
+/* Gallery labels: the four premium designs are admin demonstrations in Free. */
+.lps-visual-gallery .lps-gallery-item{position:relative}
+.lps-visual-gallery .lps-gallery-pro-preview-badge{
+    position:absolute;z-index:3;top:10px;left:10px;
+    padding:5px 10px;border-radius:999px;
+    background:#f3e8ff;color:#6b21a8;border:1px solid #d8b4fe;
+    font-size:11px;font-weight:750;line-height:1.2;
+    letter-spacing:.01em;box-shadow:0 2px 8px rgba(35,16,71,.1);
+    pointer-events:none;
+}

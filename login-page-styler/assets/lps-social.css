@@ -1,0 +1,155 @@
+.lps-social-wrap{margin:16px 0;--lps-social-gap:8px;clear:both}.lps-social-divider{text-align:center;margin:0 0 10px;font-size:12px;color:inherit}.lps-social-buttons{display:flex;flex-direction:column;gap:var(--lps-social-gap)}.lps-social-layout-horizontal .lps-social-buttons{flex-direction:row;flex-wrap:wrap}.lps-social-button{box-sizing:border-box;display:flex;align-items:center;justify-content:center;gap:9px;min-height:42px;padding:9px 12px;background:#fff;color:#303030!important;border:1px solid #dadce0;border-radius:6px;text-decoration:none!important;font:500 14px/1.3 Arial,sans-serif;flex:1}.lps-social-button:focus-visible{outline:3px solid #4285f4;outline-offset:2px}.lps-social-mark{font-weight:700;font-size:19px}.lps-social-google{color:#4285f4}.lps-social-facebook{color:#1877f2}.lps-social-microsoft{color:#737373}.lps-social-preset-outline .lps-social-buttons{padding:5px;border:1px solid #94a3b8;border-radius:8px}.lps-social-preset-brand .lps-social-buttons{padding:5px;background:#dbeafe;border-radius:8px}.lps-social-preset-glass .lps-social-buttons{padding:8px;background:#ffffff30;border:1px solid #ffffff60;border-radius:12px}.lps-social-preset-compact .lps-social-button{min-height:34px;padding:5px 8px;font-size:12px}.lps-social-preset-circle .lps-social-button,.lps-social-preset-pill .lps-social-button{border-radius:999px}.lps-social-preset-soft .lps-social-button{box-shadow:0 4px 10px #0002}.lps-social-preset-midnight .lps-social-buttons{padding:8px;background:#18181b;border-radius:8px}.lps-social-preset-aurora .lps-social-buttons{padding:8px;background:linear-gradient(120deg,#7255d9,#159e9c);border-radius:10px}.lps-social-size-small .lps-social-button{min-height:34px;font-size:12px}.lps-social-size-large .lps-social-button{min-height:50px;font-size:15px}.lps-social-admin{max-width:1100px}.lps-social-admin section{background:white;border:1px solid #dce2eb;border-radius:12px;padding:20px;margin:16px 0}.lps-social-admin details{border:1px solid #ddd;padding:12px;margin:12px 0;border-radius:8px}.lps-social-admin summary{font-weight:600;cursor:pointer}.lps-social-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}.lps-social-tile{display:block;border:1px solid #ddd;border-radius:10px;padding:12px;background:#f5f7fa}.lps-social-tile:has(input:checked){outline:2px solid #2271b1}.lps-social-tile .lps-social-wrap{margin-bottom:0}#lps-social-demo{max-width:420px;background:#e7edf3;padding:15px;border-radius:12px}
+/* Social Login Studio: scoped admin presentation, matching the main studio. */
+.lps-social-admin{max-width:1900px;margin:0 auto;padding:24px 28px 40px}.lps-social-admin h2{font-size:17px;color:#182230;margin:0 0 8px}.lps-social-admin p{color:#667085}.lps-social-master{display:flex;justify-content:space-between;align-items:center;gap:16px;background:#fff;border:1px solid #e6eaf0;border-radius:14px;padding:20px;margin-bottom:16px}.lps-social-master p{margin:0}.lps-social-toggle{display:flex;align-items:center;gap:10px;font-weight:600;cursor:pointer}.lps-social-toggle input{position:absolute;opacity:0}.lps-social-toggle span{width:42px;height:24px;border-radius:20px;background:#d0d5dd;position:relative}.lps-social-toggle span:after{content:'';position:absolute;left:3px;top:3px;width:18px;height:18px;border-radius:50%;background:white;box-shadow:0 1px 3px #0003;transition:transform .15s}.lps-social-toggle input:checked+span{background:#12b76a}.lps-social-toggle input:checked+span:after{transform:translateX(18px)}.lps-social-toggle input:focus-visible+span{outline:3px solid #667eea}.lps-social-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}.lps-social-tabs button{border:1px solid #e4e7ec;border-radius:9px;background:white;color:#475467;padding:11px 16px;font-weight:600;cursor:pointer}.lps-social-tabs button.is-active{background:#344054;color:white;border-color:#344054}.lps-social-studio{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(300px,1fr);gap:22px;align-items:start}.lps-social-admin section{margin:0;padding:24px;border-color:#e6eaf0;border-radius:16px;box-shadow:0 6px 24px #10182808}.lps-social-admin section[hidden]{display:none}.lps-social-admin details{border-color:#e4e7ec;background:#f8f9fc;padding:16px}.lps-social-admin summary{color:#344054}.lps-provider-status{float:right;font-size:11px;color:#667085;font-weight:500}.lps-social-admin input:not([type=checkbox]):not([type=radio]),.lps-social-admin select{min-height:38px;border:1px solid #d0d5dd;border-radius:8px;box-shadow:none;padding:5px 10px;max-width:100%}.lps-social-admin details input.regular-text,.lps-social-admin details input.large-text{width:100%;margin:6px 0}.lps-social-admin [data-section=display] label{display:grid;gap:7px;font-weight:600;color:#344054}.lps-social-admin [data-section=display] input,.lps-social-admin [data-section=display] select{width:100%}.lps-social-admin .submit .button-primary{background:#344054;border:0;border-radius:9px;padding:5px 22px;font-weight:600}.lps-social-grid{grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}.lps-social-tile{background:#f8f9fc;border-color:#e4e7ec;padding:12px;font-weight:600;cursor:pointer}.lps-social-tile:has(input:checked){outline:2px solid #344054;background:#eef2f8}.lps-social-tile .lps-social-button{font-size:12px;min-height:38px;padding:7px;gap:6px}.lps-social-mark{display:flex;flex:none}.lps-social-preview{position:sticky;top:48px;background:white;border:1px solid #e4e7ec;border-radius:14px;overflow:hidden;box-shadow:0 8px 24px #1018280f}.lps-social-stage{padding:30px 18px;min-height:510px;display:grid;place-items:center;background:#f2f4f7;background-image:radial-gradient(#d0d5dd .7px,transparent .7px);background-size:14px 14px}.lps-social-mock{width:100%;max-width:380px;padding:24px;border-radius:16px;background:white;color:#182230;box-shadow:0 12px 32px #10182818;display:flex;flex-direction:column;gap:10px}.lps-social-mock h3{font-size:22px;margin:0;text-align:center;color:inherit}.lps-social-mock p{text-align:center;margin:0;color:inherit;opacity:.75}.lps-social-mock-fields{display:grid;gap:9px;font-size:12px;font-weight:600}.lps-social-fake-input{height:39px;border:1px solid #98a2b3;border-radius:7px;background:#ffffff12}.lps-social-fake-submit{background:#344054;color:white;text-align:center;padding:12px;border-radius:8px;margin-top:6px}.lps-social-stage[data-theme=dark]{background:#202638}.lps-social-stage[data-theme=dark] .lps-social-mock{background:#344054;color:white}.lps-social-stage[data-theme=nature]{background:linear-gradient(135deg,#143d35,#789c71)}.lps-social-stage[data-theme=nature] .lps-social-mock{background:#153e35;color:white}.lps-social-admin #lps-social-demo{background:none;padding:0;max-width:none;border-radius:0}.lps-social-preview-note{padding:0 16px 12px;font-size:12px}.lps-social-layout-horizontal .lps-social-button{min-width:0;flex:1 1 105px}.lps-social-button:hover{box-shadow:0 2px 8px #0002}.lps-social-preset-outline .lps-social-button{border:2px solid #64748b}.lps-social-preset-soft .lps-social-button{border-color:#e2e8f0;box-shadow:0 4px 10px #0002}.lps-social-preset-circle .lps-social-button{border-radius:999px;max-width:220px;align-self:center;width:100%}.lps-social-preset-glass .lps-social-buttons{background:#769d8c55;border-color:#769d8c88}.lps-social-preset-brand .lps-social-buttons{background:#dbeafe;border:1px solid #93c5fd}.lps-social-preset-aurora .lps-social-buttons{padding:5px}.lps-social-preset-midnight .lps-social-buttons{padding:5px}@media(max-width:1050px){.lps-social-studio{grid-template-columns:1fr}.lps-social-preview{position:static}}@media(max-width:782px){.lps-social-admin{padding:14px}.lps-social-master{align-items:flex-start;flex-direction:column}.lps-social-admin section{padding:16px}}
+
+.lps-social-button[hidden]{display:none!important}.lps-social-linkedin{color:#0a66c2}.lps-social-discord{color:#5865f2}
+/* v9.9.35.11 — modern social button design system. Scoped to social login only. */
+.lps-social-wrap{--lps-social-radius:12px;--lps-social-pad-x:16px;--lps-social-pad-y:12px;--lps-social-icon-size:19px;--lps-social-width:100%;width:100%;max-width:100%;box-sizing:border-box;clear:both}
+.lps-social-wrap .lps-social-buttons{width:var(--lps-social-width);max-width:100%;margin-inline:auto;display:flex;flex-direction:column;gap:var(--lps-social-gap,10px);padding:0;background:none;border:0;box-shadow:none;box-sizing:border-box}
+.lps-social-wrap .lps-social-button{position:relative;display:flex;align-items:center;justify-content:center;gap:11px;flex:1 1 auto;min-width:0;width:100%;max-width:none;min-height:46px;padding:var(--lps-social-pad-y) var(--lps-social-pad-x);box-sizing:border-box;border-radius:var(--lps-social-radius);border:1px solid #e2e8f0;background:#fff;color:#182230!important;text-decoration:none!important;font:600 13px/1.35 -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;letter-spacing:-.01em;white-space:normal;text-align:center;transition:background .18s ease,transform .18s ease,box-shadow .18s ease,border-color .18s ease;cursor:pointer}
+.lps-social-wrap .lps-social-button[hidden]{display:none!important}
+.lps-social-wrap .lps-social-button:hover{transform:translateY(-1px);background:#f8fafc;box-shadow:0 6px 16px rgba(15,23,42,.09);border-color:#cbd5e1}
+.lps-social-wrap .lps-social-button:active{transform:translateY(0)}
+.lps-social-wrap .lps-social-button:focus-visible{outline:3px solid #818cf8;outline-offset:3px}
+.lps-social-wrap .lps-social-mark,.lps-social-wrap .lps-social-mark svg{width:var(--lps-social-icon-size);height:var(--lps-social-icon-size);min-width:var(--lps-social-icon-size);display:block}
+.lps-social-wrap .lps-social-label{min-width:0;overflow-wrap:anywhere}
+.lps-social-wrap.lps-social-align-left .lps-social-button{justify-content:flex-start;text-align:left}
+.lps-social-wrap.lps-social-layout-horizontal .lps-social-buttons{flex-direction:row;flex-wrap:wrap}
+.lps-social-wrap.lps-social-layout-horizontal .lps-social-button{flex:1 1 135px;width:auto}
+.lps-social-wrap.lps-social-layout-side-by-side .lps-social-buttons{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--lps-social-gap,10px)}
+.lps-social-wrap.lps-social-layout-side-by-side .lps-social-button{width:100%;min-width:0;padding-inline:min(var(--lps-social-pad-x),10px);font-size:12px}
+.lps-social-wrap.lps-social-layout-side-by-side .lps-social-mark,.lps-social-wrap.lps-social-layout-side-by-side .lps-social-mark svg{width:min(var(--lps-social-icon-size),18px);height:min(var(--lps-social-icon-size),18px);min-width:min(var(--lps-social-icon-size),18px)}
+.lps-social-wrap .lps-social-divider{display:block;position:relative;text-align:center;color:#64748b;font-size:11px;line-height:1.5;margin:8px 0 14px;letter-spacing:.02em}
+.lps-social-wrap.lps-social-divider-lines .lps-social-divider{display:flex;align-items:center;gap:12px}
+.lps-social-wrap.lps-social-divider-lines .lps-social-divider:before,.lps-social-wrap.lps-social-divider-lines .lps-social-divider:after{content:'';height:1px;background:currentColor;opacity:.20;flex:1}
+.lps-social-wrap.lps-social-divider-hidden .lps-social-divider{display:none}
+/* Ten intentionally different visual identities. Custom corner radius and padding remain editable. */
+.lps-social-preset-classic .lps-social-button{background:#fff;color:#1e293b!important;border:1px solid #e2e8f0;box-shadow:0 1px 2px #0f172a0a}
+.lps-social-preset-outline .lps-social-button{background:transparent!important;color:#111827!important;border:1.5px solid #94a3b8;box-shadow:inset 0 0 0 1px #ffffffaa}
+.lps-social-preset-outline .lps-social-button:hover{border-color:#475569;box-shadow:0 4px 12px #64748b22}
+.lps-social-preset-brand .lps-social-buttons{background:none!important;border:0!important;padding:0!important}
+.lps-social-preset-brand .lps-social-button{background:#eef2ff;color:#3730a3!important;border:1px solid #c7d2fe;box-shadow:0 3px 0 #c7d2fe}
+.lps-social-preset-brand .lps-social-button:hover{background:#e0e7ff;box-shadow:0 5px 0 #a5b4fc}
+.lps-social-preset-glass .lps-social-buttons{background:transparent!important;border:0!important;padding:0!important}
+.lps-social-preset-glass .lps-social-button{background:rgba(255,255,255,.28)!important;color:inherit!important;border:1px solid rgba(148,163,184,.42);box-shadow:inset 0 1px rgba(255,255,255,.36),0 8px 22px #0f172a10;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.lps-social-preset-glass .lps-social-button:hover{background:rgba(255,255,255,.50)!important}
+.lps-social-preset-compact .lps-social-button{min-height:34px!important;padding:7px 12px!important;border:1px solid #e5e7eb;background:#f8fafc;box-shadow:none;font-size:12px!important}
+.lps-social-preset-compact .lps-social-mark,.lps-social-preset-compact .lps-social-mark svg{width:16px;height:16px;min-width:16px}
+.lps-social-preset-circle .lps-social-button{border-radius:var(--lps-social-radius)!important;background:#f0fdfa;color:#134e4a!important;border-color:#99f6e4;box-shadow:0 6px 15px #0d948814}
+.lps-social-preset-circle .lps-social-button:hover{background:#ccfbf1}
+.lps-social-preset-pill .lps-social-button{border-radius:999px!important;background:#fdf2f8;color:#831843!important;border:1px solid #fbcfe8;box-shadow:0 2px 8px #be185d12}
+.lps-social-preset-pill .lps-social-button:hover{background:#fce7f3}
+.lps-social-preset-soft .lps-social-button{background:#fff;border:1px solid #f1f5f9;box-shadow:0 9px 24px #0f172a14,0 1px 4px #0f172a08}
+.lps-social-preset-soft .lps-social-button:hover{box-shadow:0 13px 28px #0f172a26}
+.lps-social-preset-midnight .lps-social-buttons{background:none!important;border:0!important;padding:0!important}
+.lps-social-preset-midnight .lps-social-button{background:#171e31!important;color:#f8fafc!important;border:1px solid #374151;box-shadow:inset 0 1px #ffffff20,0 6px 15px #02061728}
+.lps-social-preset-midnight .lps-social-button:hover{background:#26324a!important}
+.lps-social-preset-aurora .lps-social-buttons{background:none!important;border:0!important;padding:0!important}
+.lps-social-preset-aurora .lps-social-button{background:linear-gradient(115deg,#5b4be7 0%,#7c3aed 52%,#b450c8 100%)!important;color:#fff!important;border:1px solid #a78bfa66;box-shadow:0 7px 16px #7c3aed33}
+.lps-social-preset-aurora .lps-social-button:hover{box-shadow:0 10px 24px #7c3aed55;filter:brightness(1.06)}
+/* Template picker: visual cards, small legible representative buttons. */
+.lps-social-admin .lps-social-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:16px}
+.lps-social-admin .lps-social-tile{position:relative;padding:14px;border:1px solid #e1e6ed;border-radius:16px;background:#fff;box-shadow:0 3px 14px #0f172a08;transition:border-color .2s,box-shadow .2s,transform .2s;min-width:0}
+.lps-social-admin .lps-social-tile:hover{transform:translateY(-2px);box-shadow:0 12px 22px #0f172a12;border-color:#a5b4fc}
+.lps-social-admin .lps-social-tile:has(input:checked){outline:none;border-color:#6366f1;box-shadow:0 0 0 2px #818cf83b,0 12px 24px #0f172a12}
+.lps-social-admin .lps-social-tile input[type=radio]{accent-color:#6366f1;margin-right:6px}
+.lps-social-admin .lps-social-tile .lps-social-wrap{margin:15px 0 0!important}
+.lps-social-admin .lps-social-tile .lps-social-button{font-size:11px!important;min-height:38px!important;padding:8px 10px!important;gap:7px}
+.lps-social-admin .lps-social-tile .lps-social-label{font-size:11px}
+.lps-social-admin .lps-social-tile .lps-social-mark,.lps-social-admin .lps-social-tile .lps-social-mark svg{width:16px;height:16px;min-width:16px}
+.lps-social-admin .lps-social-display-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px 20px}
+.lps-social-admin .lps-social-display-grid p{margin:8px 0}
+.lps-social-admin .lps-social-display-grid label{display:grid;gap:6px}
+.lps-social-admin .lps-social-display-grid input,.lps-social-admin .lps-social-display-grid select{width:100%}
+/* Keep the demo realistic and prevent two-column buttons from breaking narrower forms. */
+@media(max-width:300px){.lps-social-wrap.lps-social-layout-side-by-side .lps-social-buttons{grid-template-columns:1fr}}
+@media(max-width:782px){.lps-social-admin .lps-social-display-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.lps-social-wrap .lps-social-button,.lps-social-admin .lps-social-tile{transition:none!important}}
+
+/* v9.9.35.11 — distinct shapes, icon-only designs and configurable treatments.
+   Scoped to social components so the login form and template styling are untouched. */
+.lps-social-wrap.lps-social-layout-grid .lps-social-buttons{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,120px),1fr));gap:var(--lps-social-gap,10px)}
+.lps-social-wrap.lps-social-layout-grid .lps-social-button{min-width:0;width:100%;padding-inline:8px}
+/* Icon presets and the explicit icon-only override. Always preserve accessible aria-label. */
+.lps-social-wrap:is(.lps-social-preset-icon-brand,.lps-social-preset-icon-black,.lps-social-preset-icon-outline,.lps-social-preset-icon-square,.lps-social-preset-icon-soft,.lps-social-preset-icon-glass):not(.lps-social-type-full):not(.lps-social-type-compact) .lps-social-label,
+.lps-social-wrap.lps-social-type-icon .lps-social-label{display:none!important}
+.lps-social-wrap:is(.lps-social-preset-icon-brand,.lps-social-preset-icon-black,.lps-social-preset-icon-outline,.lps-social-preset-icon-square,.lps-social-preset-icon-soft,.lps-social-preset-icon-glass):not(.lps-social-type-full):not(.lps-social-type-compact) .lps-social-buttons,
+.lps-social-wrap.lps-social-type-icon .lps-social-buttons{display:flex;flex-flow:row wrap;justify-content:center;align-items:center;gap:var(--lps-social-gap,10px)}
+.lps-social-wrap:is(.lps-social-preset-icon-brand,.lps-social-preset-icon-black,.lps-social-preset-icon-outline,.lps-social-preset-icon-square,.lps-social-preset-icon-soft,.lps-social-preset-icon-glass):not(.lps-social-type-full):not(.lps-social-type-compact) .lps-social-button,
+.lps-social-wrap.lps-social-type-icon .lps-social-button{width:var(--lps-social-icon-button,52px);height:var(--lps-social-icon-button,52px);min-height:0;max-width:none;flex:0 0 var(--lps-social-icon-button,52px);padding:0!important;aspect-ratio:1;display:inline-flex;align-items:center;justify-content:center}
+.lps-social-wrap.lps-social-size-small{--lps-social-icon-button:42px}
+.lps-social-wrap.lps-social-size-medium{--lps-social-icon-button:52px}
+.lps-social-wrap.lps-social-size-large{--lps-social-icon-button:62px}
+.lps-social-wrap:is(.lps-social-preset-icon-brand,.lps-social-preset-icon-black,.lps-social-preset-icon-outline):not(.lps-social-shape-square):not(.lps-social-shape-rounded):not(.lps-social-shape-pill) .lps-social-button{border-radius:50%!important}
+.lps-social-wrap:is(.lps-social-preset-icon-square,.lps-social-preset-icon-soft,.lps-social-preset-icon-glass) .lps-social-button{border-radius:13px!important}
+.lps-social-wrap.lps-social-preset-icon-brand .lps-social-button{background:#f1f5f9!important;border:1px solid #dce5ee;box-shadow:0 8px 18px #0f172a20}
+.lps-social-wrap.lps-social-preset-icon-brand .lps-social-provider-facebook{background:#1877f2!important;border-color:#1877f2}
+.lps-social-wrap.lps-social-preset-icon-brand .lps-social-provider-discord{background:#5865f2!important;border-color:#5865f2}
+.lps-social-wrap.lps-social-preset-icon-brand .lps-social-provider-linkedin{background:#0a66c2!important;border-color:#0a66c2}
+.lps-social-wrap.lps-social-preset-icon-brand .lps-social-provider-google{background:#fff!important}
+.lps-social-wrap.lps-social-preset-icon-brand .lps-social-provider-microsoft{background:#eef2ff!important}
+.lps-social-wrap.lps-social-preset-icon-black .lps-social-button{background:#0b0b0e!important;border:1px solid #141419;color:#fff!important;box-shadow:0 5px 14px #0003}
+.lps-social-wrap.lps-social-preset-icon-black .lps-social-mark svg :is(path,rect,circle){fill:#fff}
+.lps-social-wrap.lps-social-preset-icon-outline .lps-social-button{background:transparent!important;border:2px solid #273244;box-shadow:none}
+.lps-social-wrap.lps-social-preset-icon-square .lps-social-button{background:#1c2540!important;border:0;color:white!important;box-shadow:0 9px 20px #0f172a2e}
+.lps-social-wrap.lps-social-preset-icon-square .lps-social-mark svg :is(path,rect,circle){fill:#fff}
+.lps-social-wrap.lps-social-preset-icon-soft .lps-social-button{background:#f0f5ff!important;border:1px solid #dce7ff;box-shadow:0 5px 16px #3559a81c}
+.lps-social-wrap.lps-social-preset-icon-glass .lps-social-button{background:#ffffff50!important;border:1px solid #ffffffa8;backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px);box-shadow:0 8px 18px #0002}
+.lps-social-wrap.lps-social-preset-compact-brand .lps-social-button{background:#fff!important;border:1px solid #dde3ed;border-radius:10px;min-height:38px!important;padding:8px 10px!important;box-shadow:0 2px 5px #0000000d}
+.lps-social-wrap.lps-social-preset-pill-outline .lps-social-button{background:transparent!important;border:2px solid #a9b3c2;border-radius:999px!important;box-shadow:none}
+/* Form controls override template appearance only when deliberately changed. */
+.lps-social-wrap.lps-social-type-full .lps-social-buttons{display:flex!important;flex-direction:column;align-items:stretch}
+.lps-social-wrap.lps-social-type-full .lps-social-label{display:inline!important}
+.lps-social-wrap.lps-social-type-full .lps-social-button{width:100%!important;height:auto!important;min-height:46px!important;flex:1 1 auto!important;aspect-ratio:auto;border-radius:var(--lps-social-radius)!important;padding:var(--lps-social-pad-y) var(--lps-social-pad-x)!important}
+.lps-social-wrap.lps-social-type-compact .lps-social-buttons{display:flex;flex-flow:row wrap;justify-content:center}
+.lps-social-wrap.lps-social-type-compact .lps-social-label{display:inline!important}
+.lps-social-wrap.lps-social-type-compact .lps-social-button{width:auto!important;height:auto!important;min-height:38px!important;flex:0 1 auto!important;aspect-ratio:auto;padding:7px 12px!important;font-size:12px!important}
+.lps-social-wrap.lps-social-shape-square .lps-social-button{border-radius:0!important}
+.lps-social-wrap.lps-social-shape-rounded .lps-social-button{border-radius:12px!important}
+.lps-social-wrap.lps-social-shape-pill .lps-social-button{border-radius:999px!important}
+.lps-social-wrap.lps-social-shape-circle .lps-social-button{border-radius:999px!important}
+.lps-social-wrap.lps-social-colors-brand .lps-social-provider-facebook{background:#1877f2!important;border-color:#1877f2;color:#fff!important}
+.lps-social-wrap.lps-social-colors-brand .lps-social-provider-linkedin{background:#0a66c2!important;border-color:#0a66c2;color:#fff!important}
+.lps-social-wrap.lps-social-colors-brand .lps-social-provider-discord{background:#5865f2!important;border-color:#5865f2;color:#fff!important}
+.lps-social-wrap.lps-social-colors-brand .lps-social-provider-google{background:#fff!important;border-color:#ddd;color:#232b38!important}
+.lps-social-wrap.lps-social-colors-brand .lps-social-provider-microsoft{background:#edf3ff!important;border-color:#c2d7ff;color:#183153!important}
+.lps-social-wrap.lps-social-colors-mono .lps-social-button{background:#0b0b0e!important;border-color:#0b0b0e;color:#fff!important}
+.lps-social-wrap.lps-social-colors-mono .lps-social-mark svg :is(path,rect,circle){fill:#fff}
+.lps-social-wrap.lps-social-colors-custom .lps-social-button{background:#fff!important;color:#344054!important;border-color:#d0d5dd;box-shadow:none}
+.lps-social-wrap.lps-social-shadow-none .lps-social-button{box-shadow:none!important}
+.lps-social-wrap.lps-social-shadow-soft .lps-social-button{box-shadow:0 5px 12px #10182820!important}
+.lps-social-wrap.lps-social-shadow-floating .lps-social-button{box-shadow:0 12px 28px #10182840!important}
+.lps-social-wrap.lps-social-border-none .lps-social-button{border:0!important}
+.lps-social-wrap.lps-social-border-thin .lps-social-button{border:1px solid #c9d2df!important}
+.lps-social-wrap.lps-social-border-outline .lps-social-button{border:2px solid #64748b!important}
+/* Templates need to show the actual selected family, not shrink all icons to identical full-width bars. */
+.lps-social-admin .lps-social-tile .lps-social-wrap:is(.lps-social-preset-icon-brand,.lps-social-preset-icon-black,.lps-social-preset-icon-outline,.lps-social-preset-icon-square,.lps-social-preset-icon-soft,.lps-social-preset-icon-glass) .lps-social-button{width:48px!important;height:48px!important;flex:0 0 48px!important;min-height:0!important;padding:0!important}
+.lps-social-admin .lps-social-tile .lps-social-wrap:is(.lps-social-preset-icon-brand,.lps-social-preset-icon-black,.lps-social-preset-icon-outline,.lps-social-preset-icon-square,.lps-social-preset-icon-soft,.lps-social-preset-icon-glass) .lps-social-label{display:none!important}
+.lps-social-admin .lps-social-tile .lps-social-wrap:is(.lps-social-preset-icon-brand,.lps-social-preset-icon-black,.lps-social-preset-icon-outline,.lps-social-preset-icon-square,.lps-social-preset-icon-soft,.lps-social-preset-icon-glass) .lps-social-mark,.lps-social-admin .lps-social-tile .lps-social-wrap:is(.lps-social-preset-icon-brand,.lps-social-preset-icon-black,.lps-social-preset-icon-outline,.lps-social-preset-icon-square,.lps-social-preset-icon-soft,.lps-social-preset-icon-glass) svg{width:22px!important;height:22px!important;min-width:22px!important}
+@media(max-width:350px){.lps-social-wrap.lps-social-layout-grid .lps-social-buttons{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* v9.9.35.11 — monochrome logos: do not flatten the symbol and its background
+ * to the same color. Facebook, LinkedIn and Discord SVGs have two layers.
+ * Paint the logo backing white and the distinctive glyph dark.
+ * The Google G and Microsoft window consist of foreground shapes only.
+ */
+.lps-social-wrap:is(.lps-social-colors-mono,.lps-social-preset-icon-black,.lps-social-preset-icon-square) .lps-social-provider-facebook svg circle,
+.lps-social-wrap:is(.lps-social-colors-mono,.lps-social-preset-icon-black,.lps-social-preset-icon-square) .lps-social-provider-linkedin svg rect,
+.lps-social-wrap:is(.lps-social-colors-mono,.lps-social-preset-icon-black,.lps-social-preset-icon-square) .lps-social-provider-discord svg rect {fill:#fff!important}
+.lps-social-wrap:is(.lps-social-colors-mono,.lps-social-preset-icon-black,.lps-social-preset-icon-square) .lps-social-provider-facebook svg path,
+.lps-social-wrap:is(.lps-social-colors-mono,.lps-social-preset-icon-black,.lps-social-preset-icon-square) .lps-social-provider-linkedin svg path,
+.lps-social-wrap:is(.lps-social-colors-mono,.lps-social-preset-icon-black,.lps-social-preset-icon-square) .lps-social-provider-discord svg path {fill:#101114!important}
+/* If a user overrides a dark icon preset to a light color palette, respect the
+ * explicit palette and restore colored SVG brand marks. */
+.lps-social-wrap:is(.lps-social-colors-brand,.lps-social-colors-custom):is(.lps-social-preset-icon-black,.lps-social-preset-icon-square) .lps-social-provider-facebook svg circle{fill:#1877f2!important}
+.lps-social-wrap:is(.lps-social-colors-brand,.lps-social-colors-custom):is(.lps-social-preset-icon-black,.lps-social-preset-icon-square) .lps-social-provider-linkedin svg rect{fill:#0a66c2!important}
+.lps-social-wrap:is(.lps-social-colors-brand,.lps-social-colors-custom):is(.lps-social-preset-icon-black,.lps-social-preset-icon-square) .lps-social-provider-discord svg rect{fill:#5865f2!important}
+.lps-social-wrap:is(.lps-social-colors-brand,.lps-social-colors-custom):is(.lps-social-preset-icon-black,.lps-social-preset-icon-square) .lps-social-provider-facebook svg path,
+.lps-social-wrap:is(.lps-social-colors-brand,.lps-social-colors-custom):is(.lps-social-preset-icon-black,.lps-social-preset-icon-square) .lps-social-provider-linkedin svg path,
+.lps-social-wrap:is(.lps-social-colors-brand,.lps-social-colors-custom):is(.lps-social-preset-icon-black,.lps-social-preset-icon-square) .lps-social-provider-discord svg path{fill:#fff!important}
+
+/* Free edition preview: retain original Social Login design and add a small Pro notice. */
+.lps-social-free-banner{margin:18px 0;padding:16px 20px;border:1px solid #ddd5ff;background:#f7f4ff;border-radius:12px;display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+.lps-social-free-banner strong{color:#382574;font-size:15px}.lps-social-free-banner p{margin:5px 0 0;color:#554e6a;max-width:720px}
+.lps-social-demo-footer{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin:20px 0 0;padding:16px;border:1px dashed #b7a8ee;border-radius:10px;background:#faf9ff}
+.lps-social-demo-footer span{color:#4d4767}

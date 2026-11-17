@@ -1,0 +1,25 @@
+
+.lps-split-settings{margin:0 0 22px;padding:0 16px}.lps-split-settings[hidden]{display:none!important}.lps-split-settings>details{background:#fff;border:1px solid #dce2eb;border-radius:14px;padding:16px}.lps-split-settings summary{font-weight:700;font-size:15px;cursor:pointer}.lps-split-settings summary small{display:block;font-size:11px;font-weight:400;color:#64748b;margin:5px 0}.lps-split-group{border:0;border-top:1px solid #e6eaf0;margin:18px 0 0;padding:14px 0 0}.lps-split-group legend{font-weight:700;color:#303a50;padding-right:14px}.lps-split-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}.lps-split-field{display:flex;flex-direction:column;gap:5px}.lps-split-field>span{font-weight:600;font-size:12px}.lps-split-field input:not([type=checkbox]),.lps-split-field textarea,.lps-split-field select{width:100%;max-width:100%;box-sizing:border-box;min-height:35px}.lps-split-field input[type=checkbox]{margin:9px 0}.lps-preview-expanded{position:fixed!important;inset:18px!important;z-index:999999!important;display:flex!important;flex-direction:column!important;background:#fff!important;padding:12px!important;box-shadow:0 0 0 500px #0f172acc,0 20px 70px #0006!important}.lps-preview-expanded .lps-preview-stage{flex:1!important;min-height:0!important;overflow:hidden!important}.lps-preview-expanded #lps-iframe{height:100%!important;min-height:100%!important}.lps-preview-open{overflow:hidden!important}
+
+/* Split settings sit alongside the existing Customizer accordions. */
+.lps-modern-shell .accordion-container .lps-split-settings{margin:0 0 10px!important;padding:0!important;min-width:0!important}
+.lps-modern-shell .accordion-container .lps-split-settings>details{padding:10px!important;border-radius:8px!important;background:#f7f9fc!important}
+.lps-modern-shell .accordion-container .lps-split-settings summary{font-size:13px!important}
+.lps-modern-shell .accordion-container .lps-split-grid{grid-template-columns:minmax(0,1fr)!important;gap:12px!important}
+.lps-modern-shell .accordion-container .lps-split-field{min-width:0!important}
+.lps-modern-shell .accordion-container .lps-split-field .wp-picker-container{display:block;max-width:100%}
+.lps-modern-shell .accordion-container .lps-split-field .wp-picker-holder{max-width:100%}
+.lps-modern-shell .accordion-container .lps-split-media{display:flex;flex-wrap:wrap;gap:6px}
+.lps-modern-shell .accordion-container .lps-split-media input{flex:1 0 100%;min-width:0}
+.lps-modern-shell .accordion-container .lps-split-media .button{min-height:30px}
+/* Fullscreen is moved to body to escape the admin sidebar stacking contexts. */
+body.lps-preview-open>.lps-preview-expanded{position:fixed!important;inset:0!important;z-index:2147483000!important;width:100vw!important;height:100dvh!important;max-width:none!important;max-height:none!important;margin:0!important;padding:12px!important;background:#fff!important;box-sizing:border-box!important;display:flex!important;flex-direction:column!important;overflow:hidden!important;box-shadow:none!important;transform:none!important}
+body.lps-preview-open>.lps-preview-expanded .lps-preview-heading{flex:0 0 auto!important;display:flex!important;justify-content:space-between!important}
+body.lps-preview-open>.lps-preview-expanded .lps-preview-stage{flex:1 1 auto!important;min-height:0!important;max-height:none!important;height:auto!important;overflow:auto!important}
+body.lps-preview-open>.lps-preview-expanded #lps-iframe{display:block;height:100%!important;min-height:100%!important;max-height:none!important}
+body.lps-preview-open #wpadminbar{z-index:1!important}
+
+/* Match the existing Google Fonts picker in the main Customizer. */
+.lps-split-field .font-select{width:100%;max-width:100%;box-sizing:border-box;min-width:0}
+.lps-split-field .font-select>a{box-sizing:border-box;max-width:100%}
+.lps-split-field .font-select .fs-drop{max-width:100%;z-index:1000}

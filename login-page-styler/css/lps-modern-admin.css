@@ -1,0 +1,321 @@
+/* Login Page Styler 9.1.5 — Design Studio layout */
+.toplevel_page_lps_option #wpcontent{padding-left:0}
+.toplevel_page_lps_option #wpbody-content{padding-bottom:36px}
+.lps-modern-shell{box-sizing:border-box;max-width:1900px;margin:0 auto;padding:24px 28px 40px;color:#1d2939}
+.lps-modern-shell *, .lps-modern-shell *:before,.lps-modern-shell *:after{box-sizing:border-box}
+.lps-admin-header{display:flex;align-items:center;justify-content:space-between;gap:20px;margin:0 0 20px;padding:22px 26px;border:1px solid #e6eaf0;border-radius:16px;background:linear-gradient(120deg,#fff 0%,#f8faff 100%);box-shadow:0 5px 20px rgba(16,24,40,.04)}
+.lps-admin-brand{display:flex;align-items:center;gap:15px}
+.lps-admin-mark{display:grid;place-items:center;width:48px;height:48px;border-radius:14px;background:#242b43;color:#fff;font-size:25px;font-weight:800}
+.lps-admin-brand h1{margin:0 0 4px;padding:0;color:#182230;background:none;font-size:23px;line-height:1.25;font-weight:700;text-align:left;text-shadow:none}
+.lps-admin-brand p{margin:0;color:#667085;font-size:13px}
+.lps-header-version{display:flex;align-items:center;gap:9px;color:#475467;font-size:12px;white-space:nowrap}
+.lps-header-version span:last-child{padding:4px 8px;border-radius:20px;background:#eef2f7;color:#475467}
+.lps-live-dot{width:8px;height:8px;border-radius:50%;background:#12b76a;box-shadow:0 0 0 4px #dcfae6}
+.lps-modern-shell>.tabin{position:absolute;opacity:0;pointer-events:none}
+.lps-modern-shell>.tabla{display:inline-flex;align-items:center;min-height:40px;margin:0 5px 12px 0;padding:0 15px;border:1px solid #e4e7ec;border-radius:9px;background:#fff;color:#475467;font-size:12px;font-weight:600;transition:all .15s ease}
+.lps-modern-shell>.tabla:hover{background:#f8f9fc;color:#344054;border-color:#cfd5df}
+.lps-modern-shell>.tabin:checked+.tabla{border-color:#344054;background:#344054;color:#fff}
+.lps-modern-shell>.content{overflow:visible;border:1px solid #e6eaf0;border-radius:16px;background:#fff;box-shadow:0 6px 24px rgba(16,24,40,.04)}
+.lps-modern-shell>.content>div{padding:0}
+.lps-modern-shell .wrap{width:100%;margin:0;padding:24px;overflow:visible;border-radius:16px;background:#fff;box-shadow:none;font-family:inherit}
+.lps-modern-shell .wrap>h1{margin:0 0 8px;padding:0;background:none;color:#182230;font-size:22px;font-weight:700;text-align:left;text-shadow:none}
+.lps-modern-shell .wrap>h3{margin:0 0 18px;color:#667085;font-size:13px;line-height:1.6}
+.lps-modern-shell .wrap p{color:#667085;font-size:13px}
+.lps-modern-shell .wrap label{color:#344054;font-size:13px;font-weight:600}
+.lps-modern-shell .wrap .description{color:#667085;font-size:12px;font-weight:400}
+.lps-modern-shell .wrap .form-table{border-collapse:separate;border-spacing:0 5px;width:100%}
+.lps-modern-shell .wrap .form-table th{width:34%;padding:10px 14px;color:#344054;font-size:13px;font-weight:600}
+.lps-modern-shell .wrap .form-table td{padding:8px 14px}
+.lps-modern-shell .wrap input[type=text],.lps-modern-shell .wrap input[type=number],.lps-modern-shell .wrap select,.lps-modern-shell .wrap textarea{max-width:100%;min-height:36px;border:1px solid #d0d5dd;border-radius:8px;box-shadow:none;color:#344054}
+.lps-modern-shell .wrap input:focus,.lps-modern-shell .wrap select:focus,.lps-modern-shell .wrap textarea:focus{border-color:#667eea;box-shadow:0 0 0 3px rgba(102,126,234,.13);outline:0}
+/* The general options occupy the first full row. The editor and preview then sit side by side. */
+.lps-modern-shell #content1 .wrap form{display:grid!important;grid-template-columns:minmax(340px,410px) minmax(0,1fr);column-gap:22px;row-gap:0;align-items:start}
+.lps-modern-shell #content1 .wrap form>h1,.lps-modern-shell #content1 .wrap form>h3,.lps-modern-shell #content1 .wrap form>table,.lps-modern-shell #content1 .wrap form>.submit{grid-column:1/-1}
+.lps-modern-shell #content1 .wrap form>.wrapper{display:block!important;grid-column:1;grid-row:auto;width:100%!important;min-width:0;margin:0!important}
+.lps-modern-shell #content1 .wrap form>.wrapper .accordion-container{display:block!important;flex:none!important;width:100%!important;margin:0!important}
+.lps-modern-shell #content1 .wrap form>.preview-container{grid-column:2;grid-row:auto;position:sticky;top:48px;z-index:4;width:100%!important;min-width:0;margin:0!important;padding:0!important;border:1px solid #e4e7ec!important;border-radius:14px;background:#fff!important;color:#344054;box-shadow:0 8px 24px rgba(16,24,40,.06)}
+.lps-modern-shell .accordion{max-width:none;margin:0 0 10px;border:1px solid #e6eaf0;border-radius:11px;overflow:hidden;background:#fff}
+.lps-modern-shell .accordion-label{display:block;padding:14px 17px!important;border:0!important;border-bottom:1px solid #edf0f4!important;background:#f8f9fc!important;color:#253047!important;font-size:13px!important;font-weight:650!important;text-align:left!important;cursor:pointer;transition:background .15s ease}
+.lps-modern-shell .accordion-label:hover{background:#f0f3f8!important;color:#182230!important}
+.lps-modern-shell .accordion input[type=checkbox]:checked+.accordion-label{background:#f2f5fa!important;color:#182230!important}
+.lps-modern-shell .accordion-content{display:none;max-height:none!important;overflow:visible!important;padding:14px 16px!important;border:0!important;background:#fff!important;color:#333}
+.lps-modern-shell .accordion input[type=checkbox]:checked+.accordion-label+.accordion-content{display:block}
+.lps-modern-shell .accordion-content table{width:100%;max-width:100%;border-collapse:collapse}
+.lps-modern-shell .accordion-content table td{display:block;width:100%;padding:9px 2px!important}
+.lps-modern-shell .accordion-content label{color:#344054!important;font-weight:600}
+.lps-modern-shell .accordion-content input[type=text],.lps-modern-shell .accordion-content input[type=number],.lps-modern-shell .accordion-content select,.lps-modern-shell .accordion-content textarea{width:100%;max-width:100%}
+.lps-modern-shell .accordion-content input[type=range]{max-width:100%}
+.lps-modern-shell .onoffswitch{width:66px}
+.lps-modern-shell .onoffswitch-label{border:0;border-radius:30px;background:#eaecf0}
+.lps-modern-shell .onoffswitch-inner:before{background:#12b76a}
+.lps-modern-shell .onoffswitch-inner:after{background:#eaecf0}
+.lps-modern-shell .onoffswitch-switch{width:20px;right:32px;border:0;box-shadow:0 1px 3px rgba(0,0,0,.18)}
+.lps-modern-shell .onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-switch{right:0}
+.lps-modern-shell #lpsbutton-primary-main,.lps-modern-shell #lpsbutton-primary{min-height:42px;width:auto!important;padding:0 22px;border:0!important;border-radius:9px;background:#344054!important;color:#fff!important;font-size:13px!important;font-weight:650;text-transform:none!important;box-shadow:none!important;cursor:pointer}
+.lps-modern-shell #lpsbutton-primary-main:hover,.lps-modern-shell #lpsbutton-primary:hover{background:#182230!important}
+.lps-modern-shell .lpsresetbutton button{min-height:36px;padding:0 15px;border:1px solid #f0b7b7;border-radius:8px;background:#fff;color:#b42318;font-size:12px;font-weight:600;cursor:pointer}
+.lps-modern-shell .lpsresetbutton button:hover{background:#fff5f5}
+.lps-preview-heading{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:15px 17px;background:#fff;border-bottom:1px solid #e4e7ec;border-radius:14px 14px 0 0}
+.lps-preview-heading strong{display:block;color:#182230;font-size:14px}
+.lps-preview-heading span{display:block;margin-top:3px;color:#667085;font-size:11px;font-weight:400}
+.lps-preview-actions{display:flex;align-items:center;gap:5px;flex-wrap:wrap}
+.lps-preview-actions .button{min-height:31px;padding:0 10px;border:1px solid #d0d5dd;border-radius:7px;background:#fff;color:#475467;font-size:11px;line-height:29px}
+.lps-preview-actions .lps-device-button.is-active{border-color:#344054;background:#344054;color:#fff}
+.lps-preview-stage{display:flex;justify-content:center;align-items:flex-start;min-height:720px;padding:20px;overflow:auto;background-color:#f2f4f7;background-image:radial-gradient(#d0d5dd .7px,transparent .7px);background-size:14px 14px;border-radius:0 0 14px 14px}
+.lps-preview-stage iframe{display:block;flex:0 0 100%;width:100%;max-width:100%;height:760px;min-height:760px;border:1px solid #e4e7ec;border-radius:8px;background:#fff;box-shadow:0 4px 18px rgba(16,24,40,.08);transition:width .2s ease,max-width .2s ease}
+.lps-preview-stage.is-tablet iframe{flex-basis:768px;width:768px;max-width:768px}
+.lps-preview-stage.is-mobile iframe{flex-basis:390px;width:390px;max-width:390px}
+.lps-modern-shell #content1 .wrap form>.submit{margin:18px 0 0;padding:0}
+.lps-modern-shell #content1 .wrap form>.submit input{float:none}
+@media(max-width:1200px){.lps-modern-shell #content1 .wrap form{grid-template-columns:minmax(300px,370px) minmax(0,1fr);column-gap:16px}.lps-preview-heading{align-items:flex-start;flex-direction:column}.lps-preview-stage{padding:12px}}
+@media(max-width:900px){.lps-modern-shell #content1 .wrap form{display:flex!important;flex-direction:column;gap:18px}.lps-modern-shell #content1 .wrap form>.wrapper,.lps-modern-shell #content1 .wrap form>.preview-container{width:100%!important;position:static!important}.lps-preview-stage{min-height:560px}.lps-preview-stage iframe{height:620px;min-height:620px}}
+@media(max-width:782px){.lps-modern-shell{padding:14px}.lps-admin-header{align-items:flex-start;flex-direction:column;padding:18px}.lps-modern-shell .wrap{padding:16px}.lps-modern-shell .wrap .form-table th,.lps-modern-shell .wrap .form-table td{display:block;width:100%;padding:8px 4px}.lps-preview-actions{width:100%}.lps-preview-stage{min-height:460px;padding:8px}.lps-preview-stage iframe{height:560px;min-height:560px}.lps-preview-stage.is-tablet iframe{flex-basis:768px;width:768px;max-width:768px}.lps-preview-stage.is-mobile iframe{flex-basis:360px;width:360px;max-width:360px}}
+
+
+/* 9.1.3 layout correction: the preview is INSIDE .wrapper, not a direct
+   child of the form. Keep the editor and preview as siblings in this grid. */
+.lps-modern-shell #content1 .wrap form > .wrapper {
+    display: grid !important;
+    grid-template-columns: minmax(320px, 390px) minmax(0, 1fr) !important;
+    align-items: start !important;
+    gap: 22px !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+}
+.lps-modern-shell #content1 .wrap form > .wrapper > .accordion-container {
+    display: block !important;
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    flex: none !important;
+}
+.lps-modern-shell #content1 .wrap form > .wrapper > .preview-container {
+    display: block !important;
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    align-self: start !important;
+    position: sticky !important;
+    top: 48px !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+}
+.lps-modern-shell #content1 .wrap form > .wrapper .accordion-content table {
+    width: 100% !important;
+    table-layout: fixed;
+}
+.lps-modern-shell #content1 .wrap form > .wrapper .accordion-content td {
+    overflow-wrap: anywhere;
+}
+.lps-modern-shell .lps-preview-stage {
+    min-height: min(78vh, 820px);
+}
+.lps-modern-shell .lps-preview-stage iframe {
+    height: min(78vh, 820px);
+    min-height: 640px;
+}
+@media (max-width: 1100px) {
+    .lps-modern-shell #content1 .wrap form > .wrapper {
+        grid-template-columns: minmax(280px, 340px) minmax(0, 1fr) !important;
+        gap: 14px !important;
+    }
+}
+@media (max-width: 850px) {
+    .lps-modern-shell #content1 .wrap form > .wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 18px !important;
+    }
+    .lps-modern-shell #content1 .wrap form > .wrapper > .accordion-container,
+    .lps-modern-shell #content1 .wrap form > .wrapper > .preview-container {
+        width: 100% !important;
+        position: static !important;
+    }
+    .lps-modern-shell .lps-preview-stage iframe {
+        height: 620px;
+        min-height: 620px;
+    }
+}
+
+
+/* 9.1.4: Correct the outer layout. The preview is nested inside .wrapper,
+   so .wrapper must span the complete form width before its own two-column grid. */
+.lps-modern-shell #content1 .wrap {
+    width: 100% !important;
+    max-width: none !important;
+    padding: 24px !important;
+    overflow: visible !important;
+}
+.lps-modern-shell #content1 .wrap form {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+}
+.lps-modern-shell #content1 .wrap form > h1 {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 0 12px !important;
+    padding: 0 0 12px !important;
+    border-bottom: 1px solid #eaecf0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    color: #182230 !important;
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    line-height: 1.3 !important;
+    text-align: left !important;
+    text-shadow: none !important;
+}
+.lps-modern-shell #content1 .wrap form > h3 {
+    margin: 0 0 18px !important;
+    color: #667085 !important;
+    font-size: 13px !important;
+}
+.lps-modern-shell #content1 .wrap form > .form-table {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 0 20px !important;
+}
+.lps-modern-shell #content1 .wrap form > .wrapper {
+    display: grid !important;
+    grid-template-columns: minmax(320px, 390px) minmax(0, 1fr) !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    gap: 22px !important;
+    align-items: start !important;
+    overflow: visible !important;
+}
+.lps-modern-shell #content1 .wrap form > .wrapper > .accordion-container {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    width: 100% !important;
+    min-width: 0 !important;
+}
+.lps-modern-shell #content1 .wrap form > .wrapper > .preview-container {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    display: block !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    position: sticky !important;
+    top: 48px !important;
+    overflow: hidden !important;
+}
+.lps-modern-shell #content1 .lps-preview-heading {
+    width: 100% !important;
+    min-width: 0 !important;
+}
+.lps-modern-shell #content1 .lps-preview-stage {
+    width: 100% !important;
+    min-width: 0 !important;
+    min-height: 700px !important;
+    padding: 20px !important;
+    overflow: auto !important;
+}
+.lps-modern-shell #content1 .lps-preview-stage iframe {
+    display: block !important;
+    flex: 1 1 auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    height: 760px !important;
+    min-height: 640px !important;
+}
+.lps-modern-shell #content1 .lps-preview-stage.is-tablet iframe {
+    flex: 0 0 768px !important;
+    width: 768px !important;
+    max-width: 768px !important;
+}
+.lps-modern-shell #content1 .lps-preview-stage.is-mobile iframe {
+    flex: 0 0 390px !important;
+    width: 390px !important;
+    max-width: 390px !important;
+}
+@media (max-width: 1100px) {
+    .lps-modern-shell #content1 .wrap form > .wrapper {
+        grid-template-columns: minmax(280px, 340px) minmax(0, 1fr) !important;
+        gap: 14px !important;
+    }
+    .lps-modern-shell #content1 .lps-preview-heading {
+        align-items: flex-start !important;
+        flex-direction: column !important;
+    }
+}
+@media (max-width: 850px) {
+    .lps-modern-shell #content1 .wrap form > .wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .lps-modern-shell #content1 .wrap form > .wrapper > .accordion-container,
+    .lps-modern-shell #content1 .wrap form > .wrapper > .preview-container {
+        width: 100% !important;
+        position: static !important;
+    }
+    .lps-modern-shell #content1 .lps-preview-stage {
+        min-height: 560px !important;
+    }
+}
+
+/* 9.9.35.34: modern, contained subsection headings on every settings tab.
+   Override the legacy wide #hed3 blue banner and negative-margin styles. */
+.lps-modern-shell .content [id="headings-data"] {
+    margin: 25px 0 18px !important;
+    max-width: 100%;
+    min-width: 0;
+    border: 1px solid #e4eaf2;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+}
+.lps-modern-shell .content [id="headings-data"] > [id="hed3"] {
+    height: auto !important;
+    width: auto !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 15px 20px !important;
+    border: 0 !important;
+    border-bottom: 1px solid #e4eaf2 !important;
+    background: #f6f8fc !important;
+    box-shadow: none !important;
+    text-align: left !important;
+    text-shadow: none !important;
+}
+.lps-modern-shell .content [id="headings-data"] > [id="hed3"] h3 {
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #243047 !important;
+    background: transparent !important;
+    font: 700 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif !important;
+    letter-spacing: 0 !important;
+    text-align: left !important;
+    text-shadow: none !important;
+}
+.lps-modern-shell .content [id="headings-data"] > .form-table {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 8px 14px 12px;
+    box-sizing: border-box;
+}
+/* Explicitly normalize tab headings even when the old generic .wrap h1 rule loads. */
+.lps-modern-shell .content > div > .wrap > h1 {
+    margin: 0 0 13px !important;
+    padding: 0 !important;
+    background: none !important;
+    color: #182230 !important;
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    line-height: 1.35 !important;
+    text-align: left !important;
+    text-shadow: none !important;
+}
+@media (max-width: 782px) {
+    .lps-modern-shell .content [id="headings-data"] > [id="hed3"] {padding: 13px 15px !important;}
+    .lps-modern-shell .content [id="headings-data"] > .form-table {padding: 6px 9px 11px;}
+}

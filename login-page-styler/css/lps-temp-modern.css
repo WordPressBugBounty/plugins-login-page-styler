@@ -1,0 +1,28 @@
+/* Temporary Access admin screen — scoped to its own page. */
+body.login-page-styler_page_lps_temp_access #wpcontent { padding-left:0; }
+.lps-temp-shell .lps-temp-card{background:#fff;border:1px solid #e6eaf0;border-radius:16px;box-shadow:0 6px 24px rgba(16,24,40,.04);padding:28px;max-width:1100px}
+.lps-temp-shell .lps-temp-heading h2{margin:0 0 7px;font-size:23px;color:#182230}
+.lps-temp-shell .lps-temp-heading p{margin:0 0 20px;color:#667085;font-size:13px;line-height:1.6}
+.lps-temp-shell .lps-temp-warning{padding:13px 16px;background:#fffbeb;border:1px solid #fce7a5;border-radius:10px;color:#854d0e;line-height:1.6;margin-bottom:20px}
+.lps-temp-shell .lps-temp-form .form-table{border-collapse:collapse;width:100%}
+.lps-temp-shell .lps-temp-form .form-table tr{border-bottom:1px solid #eef0f4}
+.lps-temp-shell .lps-temp-form .form-table tr:last-child{border-bottom:0}
+.lps-temp-shell .lps-temp-form .form-table th{width:33%;padding:23px 24px 23px 0;vertical-align:top;font-weight:650;color:#344054;font-size:13px}
+.lps-temp-shell .lps-temp-form .form-table td{padding:18px 0;vertical-align:top}
+.lps-temp-shell .lps-temp-form select,.lps-temp-shell #lps_temp_access_url{width:100%;max-width:540px;min-height:42px;border:1px solid #d0d5dd;border-radius:9px;padding:8px 12px;box-sizing:border-box}
+.lps-temp-shell #lps_temp_access_url{display:block;margin-top:12px;background:#f8fafc;color:#475467}
+.lps-temp-shell .lps-temp-form .description{max-width:580px;color:#667085;font-size:12px;line-height:1.6;margin:8px 0 0}
+.lps-temp-shell .lps-temp-form .button{min-height:40px;padding:4px 17px;border-radius:8px;font-weight:600}
+.lps-temp-shell .lps-temp-form .button-primary{background:#344054;border-color:#344054;color:#fff}
+.lps-temp-shell .lps-temp-form .button-primary:hover{background:#182230;border-color:#182230}
+.lps-temp-shell #revoke_temp_access_button{color:#b42318;border-color:#f2b8b5;background:#fff}
+.lps-temp-shell #revoke_temp_access_button:hover{background:#fff5f5}
+.lps-temp-shell .lps-temp-form .submit{margin:22px 0 0;padding:0}
+@media(max-width:782px){.lps-temp-shell .lps-temp-card{padding:18px}.lps-temp-shell .lps-temp-form .form-table th,.lps-temp-shell .lps-temp-form .form-table td{display:block;width:100%;padding:12px 0}.lps-temp-shell .lps-temp-form .form-table td{padding-top:0}}
+
+.lps-temp-shell .lps-temp-session-panel{margin-top:24px;padding:22px;border:1px solid #dbe3ef;border-radius:12px;background:#f8fafc}
+.lps-temp-shell .lps-temp-session-panel h3{font-size:18px;margin:0 0 10px;color:#182230}
+.lps-temp-shell .lps-temp-count{font-size:14px;margin:16px 0}
+.lps-temp-shell .lps-temp-actions{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.lps-temp-shell #lps_revoke_and_terminate{color:#b42318;border-color:#f2b8b5}
+.lps-temp-shell #lps_temp_session_message{font-weight:600}

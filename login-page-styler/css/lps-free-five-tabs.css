@@ -1,0 +1,8 @@
+/* Extra presentation only, scoped to original five premium tabs. */
+#content4 .lps-free-tab-notice,#content5 .lps-free-tab-notice,#content6 .lps-free-tab-notice,#content7 .lps-free-tab-notice,#content8 .lps-free-tab-notice{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;background:#f8f5ff;border:1px solid #d7c9f5;border-radius:12px;padding:17px 20px;margin:15px 0 24px;color:#3a275d}
+.lps-free-tab-notice strong{font-size:15px}.lps-free-tab-notice p{margin:5px 0 0;color:#615579}
+#content4 [data-lps-tab-demo],#content5 [data-lps-tab-demo],#content6 [data-lps-tab-demo],#content7 [data-lps-tab-demo],#content8 [data-lps-tab-demo]{cursor:pointer}
+#content8 .lps-ip-panel{max-width:1100px;border:1px solid #dcdcde;border-radius:10px;overflow:hidden;background:white;margin:18px 0}
+#content8 .lps-ip-panel-head,#content8 .lps-ip-actions{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:15px 18px;background:#f8fafc}
+#content8 .widefat{border:0}#content8 .widefat td,#content8 .widefat th{padding:12px 14px}
+#content8 .lps-ip-remaining{font-weight:600;color:#b45309}

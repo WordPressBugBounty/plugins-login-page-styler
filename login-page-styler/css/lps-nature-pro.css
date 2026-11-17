@@ -1,0 +1,128 @@
+/* Nature Pro: premium forest glass. Existing user styling controls remain authoritative. */
+body.login.lps-nature-pro{background-color:#123e35;background-image:linear-gradient(180deg,rgba(5,28,25,.12),rgba(3,25,21,.42)),url('../images/lps-nature-forest.webp');background-size:cover;background-position:center;background-repeat:no-repeat;}
+body.login.lps-nature-pro #login{box-sizing:border-box;width:min(440px,calc(100% - 36px));max-width:440px;padding:36px 0 28px;}
+body.login.lps-nature-pro #login h1{margin:0 0 22px;text-align:center;}
+body.login.lps-nature-pro #login h1 a{background-size:contain;background-position:center;background-repeat:no-repeat;filter:drop-shadow(0 3px 12px rgba(0,0,0,.2));}
+body.login.lps-nature-pro #loginform,body.login.lps-nature-pro #registerform,body.login.lps-nature-pro #lostpasswordform{box-sizing:border-box;background:rgba(9,49,42,.58);-webkit-backdrop-filter:blur(24px) saturate(135%);backdrop-filter:blur(24px) saturate(135%);border:1px solid rgba(225,255,240,.35);border-radius:24px;box-shadow:0 26px 65px rgba(0,24,20,.36),inset 0 1px 0 rgba(255,255,255,.12);padding:34px 32px 30px;}
+body.login.lps-nature-pro #login label{color:#f4fff8;font-size:14px;font-weight:600;line-height:1.5;}
+body.login.lps-nature-pro #login .input,body.login.lps-nature-pro #login input[type=text],body.login.lps-nature-pro #login input[type=password]{box-sizing:border-box;background:rgba(245,255,249,.19);border:1px solid rgba(245,255,249,.35);border-radius:12px;color:#fff;min-height:49px;padding:10px 14px;box-shadow:none;}
+body.login.lps-nature-pro #login .input:focus{border-color:#a3f3bd;box-shadow:0 0 0 3px rgba(136,242,177,.22);outline:none;}
+body.login.lps-nature-pro #login .forgetmenot{float:none;margin:14px 0;}
+body.login.lps-nature-pro #login .submit{float:none;clear:both;margin-top:18px;}
+body.login.lps-nature-pro #login .button-primary{box-sizing:border-box;display:block;width:100%;float:none;background:#18a65d;color:#fff;border:1px solid #18a65d;border-radius:12px;min-height:48px;padding:10px 18px;font-weight:700;box-shadow:0 8px 22px rgba(0,30,18,.23);text-shadow:none;}
+body.login.lps-nature-pro #login .button-primary:hover{background:#11854b;border-color:#11854b;}
+body.login.lps-nature-pro #nav,body.login.lps-nature-pro #backtoblog{text-align:center;padding:0;margin:16px 0 0;}
+body.login.lps-nature-pro #nav a,body.login.lps-nature-pro #backtoblog a{color:#e9fff2;text-decoration:none;}
+body.login.lps-nature-pro #login_error,body.login.lps-nature-pro .message,body.login.lps-nature-pro .success{border-radius:12px;}
+@media(max-width:480px){body.login.lps-nature-pro #login{width:min(400px,calc(100% - 28px));padding-top:22px;}body.login.lps-nature-pro #loginform,body.login.lps-nature-pro #registerform,body.login.lps-nature-pro #lostpasswordform{padding:25px 22px;}}
+
+/* Logo is part of the glass card, above the login fields. */
+body.login.lps-nature-pro #login form > h1:first-child {display:block;margin:0 0 26px;text-align:center;}
+body.login.lps-nature-pro #login form > h1:first-child a {display:block;margin:0 auto;background-position:center;background-repeat:no-repeat;background-size:contain;}
+body.login.lps-nature-pro #login > h1 {margin:0;}
+
+
+/* Nature Pro 9.9.34.10: visual polish. Defaults only; saved Customizer styles remain authoritative. */
+body.login.lps-nature-pro #login form {
+  transition: box-shadow .25s ease, border-color .25s ease;
+}
+body.login.lps-nature-pro #login form > h1:first-child { margin-bottom: 28px; }
+body.login.lps-nature-pro #login form p:not(.forgetmenot):not(.submit) { margin-bottom: 17px; }
+body.login.lps-nature-pro #login form label { display: inline-block; margin-bottom: 6px; letter-spacing: .012em; }
+body.login.lps-nature-pro #login form .input,
+body.login.lps-nature-pro #login form input[type="text"],
+body.login.lps-nature-pro #login form input[type="password"],
+body.login.lps-nature-pro #login form input[type="email"] {
+  background: rgba(242,255,249,.14);
+  border: 1px solid rgba(222,255,237,.35);
+  border-radius: 13px;
+  min-height: 50px;
+  padding: 11px 15px;
+  color: #fff;
+  box-shadow: inset 0 1px 2px rgba(0,20,15,.08);
+  transition: border-color .2s ease, box-shadow .2s ease, background-color .2s ease;
+}
+body.login.lps-nature-pro #login form .input:hover,
+body.login.lps-nature-pro #login form input[type="text"]:hover,
+body.login.lps-nature-pro #login form input[type="password"]:hover,
+body.login.lps-nature-pro #login form input[type="email"]:hover { border-color: rgba(225,255,239,.62); }
+body.login.lps-nature-pro #login form .input:focus,
+body.login.lps-nature-pro #login form input[type="text"]:focus,
+body.login.lps-nature-pro #login form input[type="password"]:focus,
+body.login.lps-nature-pro #login form input[type="email"]:focus {
+  background: rgba(242,255,249,.20);
+  border-color: #a5f4bd;
+  box-shadow: 0 0 0 3px rgba(137,245,176,.22);
+  outline: none;
+}
+body.login.lps-nature-pro #login form .input::placeholder { color: rgba(245,255,250,.65); }
+body.login.lps-nature-pro #login .forgetmenot { margin: 17px 0 12px; }
+body.login.lps-nature-pro #login .forgetmenot label { margin: 0; font-weight: 500; }
+body.login.lps-nature-pro #login input[type="checkbox"] { accent-color: #24bb75; }
+body.login.lps-nature-pro #login .submit { margin-top: 20px; }
+body.login.lps-nature-pro #login .button-primary {
+  background: linear-gradient(135deg,#27c77b 0%,#159455 100%);
+  border-color: rgba(157,255,198,.28);
+  border-radius: 13px;
+  min-height: 50px;
+  padding: 12px 20px;
+  font-weight: 700;
+  letter-spacing: .015em;
+  box-shadow: 0 10px 24px rgba(2,51,29,.28), inset 0 1px 0 rgba(255,255,255,.15);
+  transition: transform .2s ease, box-shadow .2s ease, filter .2s ease;
+}
+body.login.lps-nature-pro #login .button-primary:hover,
+body.login.lps-nature-pro #login .button-primary:focus {
+  background: linear-gradient(135deg,#30d487 0%,#17884f 100%);
+  filter: brightness(1.04);
+  box-shadow: 0 13px 28px rgba(2,51,29,.34), inset 0 1px 0 rgba(255,255,255,.18);
+}
+body.login.lps-nature-pro #login .button-primary:active { transform: translateY(1px); }
+body.login.lps-nature-pro #nav a:hover,
+body.login.lps-nature-pro #backtoblog a:hover { color: #fff; text-decoration: underline; }
+body.login.lps-nature-pro #login_error,
+body.login.lps-nature-pro .message,
+body.login.lps-nature-pro .success { line-height: 1.55; }
+@media (max-width: 480px) {
+  body.login.lps-nature-pro #login form > h1:first-child { margin-bottom: 20px; }
+  body.login.lps-nature-pro #login .button-primary { min-height: 48px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  body.login.lps-nature-pro #login form,
+  body.login.lps-nature-pro #login form .input,
+  body.login.lps-nature-pro #login .button-primary { transition: none; }
+}
+
+/* Nature Pro notices: readable defaults without leaking white text to the body.
+ * Explicit notice color settings override these defaults through login_head CSS. */
+body.login.lps-nature-pro #login #login_error,
+body.login.lps-nature-pro #login .message,
+body.login.lps-nature-pro #login .notice,
+body.login.lps-nature-pro #login .success {
+  background-color: rgba(9,49,42,.88);
+  color: #f7fffa;
+  border: 1px solid rgba(225,255,240,.35);
+  border-radius: 12px;
+  padding: 16px 18px;
+  line-height: 1.6;
+}
+body.login.lps-nature-pro #login #login_error a,
+body.login.lps-nature-pro #login .message a,
+body.login.lps-nature-pro #login .notice a,
+body.login.lps-nature-pro #login .success a { color: inherit; text-decoration: underline; }
+
+/* Prevent WordPress login notices, errors, and registration messages from
+   clipping vertically on this template. The same stylesheet runs in the
+   existing Customizer iframe and the published login page. */
+body.login.lps-nature-pro #login > :is(#login_error,.message,.notice,.success) {
+  box-sizing:border-box!important; max-width:100%!important; width:100%!important;
+  margin:0 auto 18px!important; padding:14px 18px!important;
+  border-radius:12px!important; line-height:1.55!important; overflow-wrap:anywhere;
+}
+body.login.lps-nature-pro:has(#login > :is(#login_error,.message,.notice,.success)) {
+  height:auto!important; min-height:100vh!important;
+  justify-content:flex-start!important; overflow-y:auto!important;
+}
+body.login.lps-nature-pro:has(#login > :is(#login_error,.message,.notice,.success)) #login {
+  margin-top:0!important; margin-bottom:0!important;
+}

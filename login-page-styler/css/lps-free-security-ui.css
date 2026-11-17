@@ -1,0 +1,5 @@
+/* Freemium admin-only demonstrations. Original feature page styling is retained. */
+.lps-free-pro-banner{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;border:1px solid #d7c9ff;background:#f7f3ff;padding:17px 20px;margin:16px 0;border-radius:12px;color:#332462}
+.lps-free-pro-banner strong{font-size:15px}.lps-free-pro-banner p{margin:6px 0 0;max-width:740px;color:#5f5473}
+.lps-free-demo-note{border:1px dashed #b5a6ea;background:#faf8ff;border-radius:10px;padding:15px;margin:18px 0;color:#56447a}
+.lps-free-demo-status{font-weight:600;color:#6543a8;margin:8px 0;min-height:22px}

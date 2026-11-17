@@ -1,0 +1,77 @@
+/* Split-Screen Studio — premium illustrated panel + real WordPress login. */
+body.login.lps-split-studio{background:#f8faff;color:#17213a;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;min-height:100vh;overflow-x:hidden}
+body.login.lps-split-studio #login{isolation:isolate;z-index:2}
+body.login.lps-split-studio #login h1{margin:0 0 30px;text-align:left}
+body.login.lps-split-studio #login h1 a{margin:0 auto 0 0;max-width:100%;background-size:contain}
+body.login.lps-split-studio #login form{border:1px solid #e9ecf6;border-radius:22px;background:#fff;box-sizing:border-box;padding:36px 36px 30px;box-shadow:var(--lps-split-form-shadow,0 22px 65px rgba(35,43,95,.10),0 3px 14px rgba(35,43,95,.025))!important;max-width:100%}
+body.login.lps-split-studio #login label{font-size:12px;letter-spacing:.015em;font-weight:650;color:#303b55}
+body.login.lps-split-studio #login input.input,body.login.lps-split-studio #login input[type=text],body.login.lps-split-studio #login input[type=password],body.login.lps-split-studio #login input[type=email]{background:#f6f8fd;color:#1b2540;border:1px solid #e1e6f2;border-radius:12px;min-height:50px;box-sizing:border-box;box-shadow:none;padding:10px 15px;transition:border-color .2s,box-shadow .2s}
+body.login.lps-split-studio #login .input:focus{border-color:#7465ef;box-shadow:0 0 0 4px rgba(116,101,239,.12)}
+body.login.lps-split-studio #login .forgetmenot{float:none;margin:12px 0 18px}
+body.login.lps-split-studio #login input[type=checkbox]{accent-color:#6453e8;border-radius:5px}
+body.login.lps-split-studio #login .submit{float:none;clear:both;margin-top:14px}
+body.login.lps-split-studio #login .button-primary{float:none;display:block;box-sizing:border-box;width:100%;border:0;border-radius:12px;min-height:50px;background:linear-gradient(110deg,#6150e8,#8a58e8);color:#fff;font-weight:700;font-size:14px;letter-spacing:.01em;text-shadow:none;box-shadow:0 8px 20px rgba(101,83,229,.22);transition:filter .2s,transform .2s}
+body.login.lps-split-studio #login .button-primary:hover{filter:brightness(1.1);transform:translateY(-1px)}
+body.login.lps-split-studio #nav,body.login.lps-split-studio #backtoblog{padding:0;margin:16px 0 0;text-align:center}
+body.login.lps-split-studio #nav a,body.login.lps-split-studio #backtoblog a{color:#66728c}
+body.login.lps-split-studio #login_error,body.login.lps-split-studio .message{box-sizing:border-box;border-radius:12px}
+body.login.lps-split-studio .lps-social-wrap{margin-top:20px}
+body.login.lps-split-studio .lps-split-panel{position:fixed;z-index:1;left:0;top:0;bottom:0;width:51%;box-sizing:border-box;background:radial-gradient(ellipse at 88% 11%,#9b91ff 0%,transparent 34%),radial-gradient(circle at 2% 87%,#202d95 0%,transparent 54%),linear-gradient(150deg,#3c3ab4,#7668e6 56%,#ae78d5);color:#fff;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;padding:48px clamp(26px,5vw,82px);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+body.login.lps-split-studio .lps-split-panel[hidden]{display:none!important}
+.lps-split-panel *{box-sizing:border-box}
+.lps-split-panel .lps-split-brand{position:relative;z-index:2;display:flex;align-items:center;gap:12px;font-size:12px;font-weight:750;letter-spacing:.18em}
+.lps-split-panel .lps-split-monogram{width:42px;height:42px;background:#ffffff32;border:1px solid #ffffff69;border-radius:13px;display:grid;place-items:center;font-size:24px;letter-spacing:0;backdrop-filter:blur(10px)}
+.lps-split-panel .lps-split-story{position:relative;z-index:2;max-width:570px;margin:100px 0 60px}
+.lps-split-panel .lps-split-eyebrow{font-size:11px;font-weight:700;letter-spacing:.23em;color:#e1dfff}
+.lps-split-panel h2{font-family:Georgia,'Times New Roman',serif;letter-spacing:-.045em;font-weight:500;font-size:clamp(40px,4.4vw,78px);line-height:1.04;color:#fff;margin:20px 0 24px;text-wrap:balance;text-shadow:0 2px 20px #23216616}
+.lps-split-panel p{font-size:clamp(14px,1.23vw,18px);line-height:1.7;color:#e9e9ff;max-width:390px;margin:0}
+.lps-split-panel .lps-split-story-line{display:block;margin-top:38px;width:68px;height:3px;background:#d9d2ff;border-radius:10px}
+.lps-split-panel .lps-split-footnote{position:relative;z-index:2;display:flex;justify-content:space-between;gap:12px;letter-spacing:.17em;font-size:10px;font-weight:700;color:#e9e8ff}
+.lps-split-panel .lps-split-art{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.lps-split-panel .lps-split-orbit{position:absolute;right:-19%;top:13%;width:72%;aspect-ratio:1;border-radius:50%;border:1px solid #ffffff65;box-shadow:0 0 0 46px #ffffff0c,0 0 0 94px #ffffff0a,0 0 0 152px #ffffff06;transform:rotate(-20deg)}
+.lps-split-panel .lps-split-glass{position:absolute;width:33%;aspect-ratio:1;right:13%;top:28%;border-radius:26%;transform:rotate(-27deg);background:linear-gradient(135deg,#ffffff80,#ffffff06);box-shadow:inset 2px 2px 2px #ffffff99,20px 30px 70px #24237445;backdrop-filter:blur(12px)}
+.lps-split-panel .lps-split-spark{position:absolute;width:150px;height:150px;left:-50px;bottom:22%;border-radius:50%;background:#c2b4ff88;filter:blur(80px)}
+@media(max-width:1050px){body.login.lps-split-studio .lps-split-panel{padding:35px 32px}.lps-split-panel .lps-split-story{margin:40px 0}.lps-split-panel h2{font-size:clamp(38px,4vw,55px)}body.login.lps-split-studio #login form{padding:28px 25px}}
+@media(max-width:760px){body.login.lps-split-studio .lps-split-panel{display:none!important}body.login.lps-split-studio #login{width:min(440px,100%)!important}body.login.lps-split-studio #login form{padding:30px 24px;border-radius:20px}body.login.lps-split-studio #login h1{text-align:center}body.login.lps-split-studio #login h1 a{margin:auto}}
+@media(max-width:400px){body.login.lps-split-studio #login form{padding:24px 18px}body.login.lps-split-studio #login .button-primary{min-height:46px}}
+
+/* Configurable Studio layout; these vars are shared by published login and iframe preview. */
+body.login.lps-split-studio{justify-content:flex-end!important;align-items:center!important;padding:24px max(3%,20px) 24px calc(var(--lps-split-width,51%) + 3%)!important;min-height:100vh!important}
+body.login.lps-split-studio #login{box-sizing:border-box!important;max-width:100%!important;padding:32px!important}
+body.login.lps-split-studio .lps-split-panel{width:var(--lps-split-width,51%)!important;background:var(--lps-split-gradient,linear-gradient(150deg,#3c3ab4,#ae78d5))!important;color:var(--lps-split-text,#fff)!important;text-align:var(--lps-split-brand-align,left)!important;min-height:100vh!important}
+body.login.lps-split-studio .lps-split-panel h2,body.login.lps-split-studio .lps-split-panel p,body.login.lps-split-studio .lps-split-brand{color:var(--lps-split-text,#fff)!important}
+body.login.lps-split-studio .lps-split-welcome{margin:0 0 22px;text-align:left;color:var(--lps-split-welcome-color,#17213a)}
+body.login.lps-split-studio .lps-split-welcome h2{font-size:27px;line-height:1.2;color:inherit;margin:0 0 7px;font-weight:750}
+body.login.lps-split-studio .lps-split-welcome p{font-size:14px;color:inherit;opacity:.68;margin:0}
+body.login.lps-split-studio #login>.copyright{display:block!important;position:relative!important;inset:auto!important;float:none!important;clear:both!important;width:100%!important;max-width:100%!important;margin:22px auto 0!important;text-align:center!important;box-sizing:border-box!important;}
+body.login.lps-split-studio[style*="--lps-split-side:right"]{padding-left:max(3%,20px)!important;padding-right:calc(var(--lps-split-width,51%) + 3%)!important;justify-content:flex-start!important}
+body.login.lps-split-studio[style*="--lps-split-side:right"] .lps-split-panel{left:auto!important;right:0!important}
+/* State variables may be set through a stylesheet rather than the body style attribute. */
+body.login.lps-split-studio.lps-split-right{padding-left:max(3%,20px)!important;padding-right:calc(var(--lps-split-width,51%) + 3%)!important;justify-content:flex-start!important}
+body.login.lps-split-studio.lps-split-right .lps-split-panel{left:auto!important;right:0!important}
+@media(max-width:760px){body.login.lps-split-studio,body.login.lps-split-studio.lps-split-right{padding:32px 18px!important;justify-content:center!important;align-items:center!important;min-height:100vh!important}body.login.lps-split-studio .lps-split-welcome{text-align:center}}
+
+/* Template-specific typography overrides; same CSS variables in preview and frontend. */
+body.login.lps-split-studio .lps-split-panel h2{font-family:var(--lps-split-headline-font,Georgia),Georgia,serif!important;font-size:clamp(28px,4.5vw,var(--lps-split-headline-size,64px))!important;font-weight:var(--lps-split-headline-weight,500)!important}
+body.login.lps-split-studio .lps-split-welcome h2{font-family:var(--lps-split-welcome-font,Arial),Arial,sans-serif!important;font-size:var(--lps-split-welcome-size,27px)!important}
+
+/* Narrow screens retain enough usable width; no redundant split padding control. */
+@media(max-width:760px){body.login.lps-split-studio #login{padding:18px!important}}
+
+/* Prevent WordPress login notices, errors, and registration messages from
+   clipping vertically on this template. The same stylesheet runs in the
+   existing Customizer iframe and the published login page. */
+body.login.lps-split-studio #login > :is(#login_error,.message,.notice,.success) {
+  box-sizing:border-box!important; max-width:100%!important; width:100%!important;
+  margin:0 auto 18px!important; padding:14px 18px!important;
+  border-radius:12px!important; line-height:1.55!important; overflow-wrap:anywhere;
+}
+body.login.lps-split-studio:has(#login > :is(#login_error,.message,.notice,.success)) {
+  height:auto!important; min-height:100vh!important;
+  justify-content:flex-start!important; overflow-y:auto!important;
+}
+body.login.lps-split-studio:has(#login > :is(#login_error,.message,.notice,.success)) #login {
+  margin-top:0!important; margin-bottom:0!important;
+}
+/* Keep the fixed branding panel unchanged; only allow the right-hand form to scroll. */
+body.login.lps-split-studio:has(#login > :is(#login_error,.message,.notice,.success)) {align-items:flex-start!important;}
